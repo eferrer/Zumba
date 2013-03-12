@@ -30,7 +30,6 @@
             margin-top: 2rem;
             margin-left: 1rem;
             margin-right: 1rem;
-            color: $text;
         }
     }
     
@@ -43,8 +42,9 @@
       font-size: 1.5rem;
     }
     
+    //*******************CLASS SCHEDULE CONTENT***************
+
     #classes{
-        //background-color: red;
         width: 90%;
         margin: auto;
         margin-bottom: 2rem;
@@ -53,12 +53,17 @@
         
         li{
             line-height: 1.5rem;
+            color: $text;
         }
     }
 
+   #classes:last-child{
+    border-bottom: none;
+   }
+
     .day{
         float: left;
-        width: 60%;
+        width: 50%;
         font-size: 1.1rem;
     }
     
@@ -91,6 +96,10 @@
         }
     }
     
+ //*******************PRICE SCHEDULE CONTENT***************   
     
-    
+    .classType{
+        line-height: 2.5rem;
+        border-bottom:  1px solid $text;
+    }
 // } // end of media query 30em

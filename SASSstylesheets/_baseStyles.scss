@@ -5,6 +5,7 @@
 
 body{
   font-family: $aliquamRegular;
+  letter-spacing: 0.1rem;
   background-color: $brown;
   height: 100%;
 }
@@ -29,16 +30,20 @@ h2{
 
 a{
   font-family: $aliquamRegular;
+  letter-spacing: 0.1rem
 }
 
 p {
   font-family: $aliquamRegular;
+  letter-spacing: 0.1rem;
   font-size: 1rem;
-  color: $brown;
+  line-height: 1.5rem;
+  color: $text;
 }
 
 li{
   font-family: $aliquamUltraLight;
+  letter-spacing: 0.1rem;
 }
 
 .fontAwesome{
@@ -106,7 +111,6 @@ background: $brown;
   }
 
   a:hover{
-      //border: 20px solid $paleBlue;
       background-color: $blue;
     }
   }
@@ -117,7 +121,6 @@ background: $brown;
   }
 
   a:hover{
-      //border: 20px solid $paleOrange;
       background-color: $orange;
     }
   }
@@ -128,7 +131,6 @@ background: $brown;
   }
 
   a:hover{
-      //border: 20px solid $palePurple;
       background-color: $purple;
     }
   }
@@ -142,13 +144,14 @@ background: $brown;
   }
 }
     
-//*******************HOME PAGE CONTENT***************
+//*******************CONTENT***************
 
-#content{
-  font-family: $aliquamRegular;
-  text-align: justify;
-  height: 100%;
-}
+// #content{
+//   font-family: $aliquamRegular;
+//   letter-spacing: 0.1rem;
+//   text-align: justify;
+//   height: 100%;
+// }
 
 //*****************FOOTER******************
 

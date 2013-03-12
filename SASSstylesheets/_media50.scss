@@ -85,6 +85,7 @@
     
     #content{
         width: 90%;
+        height: 100%;
         margin: auto;
         margin-top: 6rem;
         margin-bottom: 2rem;
@@ -104,24 +105,9 @@
         p{
             margin-left: 1rem;
             margin-right: 1rem;
-            line-height: 1.5rem;
         }
     }
-    
-     #homeTag{
-      clear: both;
-      text-align: center;
-      padding-top: 2rem;
-      color: $green;
-      font-size: 1.5rem;
-    }
-    
-    // #rightContent{
-    //     width: 90%;
-    //     margin: auto;
-    //     margin-bottom: 2rem;
-    //     // background-color: red;
-    // }
+  
     
     #viewClasses{
         display: none;
@@ -144,6 +130,16 @@
         max-width: 100%;
         height: 358px;
         margin: auto;
+    }
+
+    //*******************TAG LINE*************************
+
+       #homeTag{
+      clear: both;
+      text-align: center;
+      padding-top: 2rem;
+      color: $green;
+      font-size: 1.5rem;
     }
 
 
