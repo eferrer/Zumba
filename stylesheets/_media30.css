@@ -23,7 +23,6 @@
     font-weight: normal;
     font-style: normal; }
 
-  /* line 15, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #mainImage {
     background-image: url("../assets/images/zumba526.jpg");
     background-repeat: no-repeat;
@@ -33,11 +32,9 @@
     margin: auto;
     margin-top: 2rem; }
 
-  /* line 27, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #video {
     display: none; }
 
-  /* line 33, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #navBar {
     width: 100%;
     height: 100%;
@@ -45,17 +42,13 @@
     padding-bottom: 1rem;
     margin-top: 0.3rem;
     margin-bottom: 0.3rem; }
-    /* line 42, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #navBar #menu {
       width: 90%;
       margin: auto; }
-    /* line 48, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #navBar li {
       display: block !important; }
-    /* line 52, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #navBar li:nth-child(4) {
       display: none !important; }
-    /* line 56, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #navBar li a {
       display: block;
       font-size: 1.3rem;
@@ -66,11 +59,9 @@
       -moz-border-radius: 20px;
       border-radius: 20px; }
 
-  /* line 68, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #danceTypes {
     display: none; }
 
-  /* line 74, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #mainContainer {
     width: 100%;
     height: 100%;
@@ -82,7 +73,6 @@
     background-image: -olinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent);
     background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); }
 
-  /* line 80, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #content {
     width: 90%;
     margin: auto;
@@ -92,7 +82,6 @@
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px; }
-    /* line 89, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #content h1 {
       display: block;
       width: 95%;
@@ -100,14 +89,12 @@
       padding-top: 1rem;
       padding-bottom: 1rem;
       border-bottom: 8px solid #a8e232; }
-    /* line 98, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #content p {
       margin-top: 2rem;
       margin-left: 1rem;
       margin-right: 1rem;
-      color: #999999; }
+      line-height: 1.5rem; }
 
-  /* line 106, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #homeTag {
     clear: both;
     text-align: center;
@@ -115,40 +102,31 @@
     color: #a8e232;
     font-size: 1.5rem; }
 
-  /* line 115, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #viewClasses {
     display: none; }
 
-  /* line 119, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   .zumbaCom {
     display: none; }
 
-  /* line 126, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #footerLinks {
     margin-top: -1rem; }
-    /* line 129, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #footerLinks li {
       display: block !important;
       padding-top: 1rem;
       line-height: 1.8rem; }
-    /* line 135, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #footerLinks li:last-child {
       padding-bottom: 1rem; }
-    /* line 139, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #footerLinks a {
       font-size: 1.5rem; }
 
-  /* line 144, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
   #copyright {
     height: 4rem;
     margin-top: -1rem; }
-    /* line 148, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30.scss */
     #copyright p {
       padding-top: 1rem; }
 
   /* === Breakpoints set in ems, but header height in px because image is in px
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
-  /* line 9, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_about.scss */
   #about {
     width: 90%;
     height: 100%;
@@ -159,7 +137,6 @@
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px; }
-    /* line 19, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_about.scss */
     #about h1 {
       display: block;
       width: 95%;
@@ -167,14 +144,12 @@
       padding-top: 1rem;
       padding-bottom: 1rem;
       border-bottom: 8px solid #ec31b1; }
-    /* line 28, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_about.scss */
     #about p {
       margin-top: 2rem;
       margin-left: 1rem;
       margin-right: 1rem;
       color: #999999; }
 
-  /* line 36, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_about.scss */
   #aboutTag {
     clear: both;
     text-align: center;
@@ -182,13 +157,11 @@
     color: #ec31b1;
     font-size: 1.5rem; }
 
-  /* line 45, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_about.scss */
   #selfContainer {
     display: none; }
 
   /* === Breakpoints set in ems, but header height in px because image is in px
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
-  /* line 11, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
   #classSchedule,
   #priceSchedule,
   #studentInfo {
@@ -201,7 +174,6 @@
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px; }
-    /* line 20, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
     #classSchedule h1,
     #priceSchedule h1,
     #studentInfo h1 {
@@ -211,7 +183,6 @@
       padding-top: 1rem;
       padding-bottom: 1rem;
       border-bottom: 8px solid #1fe0fc; }
-    /* line 29, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
     #classSchedule p,
     #priceSchedule p,
     #studentInfo p {
@@ -220,7 +191,6 @@
       margin-right: 1rem;
       color: #999999; }
 
-  /* line 37, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
   #classesTag {
     clear: both;
     text-align: center;
@@ -229,12 +199,29 @@
     color: #1fe0fc;
     font-size: 1.5rem; }
 
-  /* line 46, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
   #classes {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem; }
+    #classes li {
+      line-height: 1.5rem; }
 
-  /* line 53, /Users/EileenFerrer/Dropbox/Eileen's/Web Development/Web Projects/gp_Zumba/SASSstylesheets/_media30_classes.scss */
+  .day {
+    float: left;
+    width: 45%;
+    font-size: 1.1rem; }
+
+  .time {
+    float: left;
+    width: 45%;
+    font-size: 1.1rem; }
+
   .place {
-    font-size: 1.2rem; } }
+    clear: both;
+    text-transform: uppercase;
+    padding-top: 1rem; }
+
+  .directions a {
+    color: #1fe0fc; }
+  .directions a:hover {
+    color: #14080a; } }
