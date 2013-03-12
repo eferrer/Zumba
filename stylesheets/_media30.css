@@ -202,18 +202,20 @@
   #classes {
     width: 90%;
     margin: auto;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px ridge #1fe0fc; }
     #classes li {
       line-height: 1.5rem; }
 
   .day {
     float: left;
-    width: 45%;
+    width: 60%;
     font-size: 1.1rem; }
 
   .time {
     float: left;
-    width: 45%;
+    width: 30%;
     font-size: 1.1rem; }
 
   .place {
@@ -222,6 +224,8 @@
     padding-top: 1rem; }
 
   .directions a {
-    color: #1fe0fc; }
+    display: block;
+    color: #1fe0fc;
+    padding-top: 1rem; }
   .directions a:hover {
     color: #14080a; } }
