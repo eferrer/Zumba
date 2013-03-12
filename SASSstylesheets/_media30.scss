@@ -90,7 +90,7 @@
         h1{
             display: block;
             width: 95%;
-            margin-left: 1rem;
+            margin-left: 5%;
             padding-top: 1rem;
             padding-bottom: 1rem;
             border-bottom: $h1Home;
@@ -98,12 +98,11 @@
         
         p{
             margin-top: 2rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
+            margin-bottom: 2rem;
+            width: 90%;
+            margin: auto;
         }
     }
-    
-   
     
     #viewClasses
     {
@@ -117,11 +116,14 @@
     //*******************TAG LINE*************************
 
      #homeTag{
-      clear: both;
+      width: 90%;
+      margin: auto;
       text-align: center;
       padding-top: 2rem;
+      padding-bottom: 1rem;
       color: $green;
       font-size: 1.5rem;
+      //background-color: red;
     }
 
     //*******************FOOTER*************************
