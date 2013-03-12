@@ -48,10 +48,49 @@
         width: 90%;
         margin: auto;
         margin-bottom: 2rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px ridge $blue;
+        
+        li{
+            line-height: 1.5rem;
+        }
     }
 
-    .place{
-        font-size: 1.2rem;
+    .day{
+        float: left;
+        width: 60%;
+        font-size: 1.1rem;
     }
+    
+    .time{
+        float: left;
+        width: 30%;
+        font-size: 1.1rem;
+    }
+ 
+    .place{
+        clear: both;
+        text-transform: uppercase;
+        padding-top: 1rem;
+    }
+    
+    .address{
+        
+    }
+    
+    .directions{
+        
+        a{
+            display: block;
+            color: $blue;
+            padding-top: 1rem;
+        }
+        
+        a:hover{
+            color: $brown;
+        }
+    }
+    
+    
     
 // } // end of media query 30em
