@@ -1,0 +1,186 @@
+/* === Breakpoints set in ems, but header height in px because image is in px
+        
+ /* Target landscape smartphones, portrait tablets, narrow desktops
+ /* ===== == = === 481 px - 800 px === = == ===== */ 
+
+@media screen and (min-width: 30.1em) and (max-width: 50em) {
+    
+     @import "_styles.scss";
+    
+    #logo{
+        
+    }
+    
+    //*******************HOME PAGE MAIN IMAGE***************
+     
+    #mainImage{
+        display: none;
+    }
+    
+     //*******************HOME PAGE YOUTUBE VIDEO***************
+
+     #video{
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+            //background-color: red;
+      }
+
+      #video iframe,  
+      #video object,  
+      #video embed {
+            position: absolute;
+            top: 3rem;
+            left: 2rem;
+            width: 90%;
+            height: 90%;
+      }
+         
+    //*******************NAVIGATION MENU***************
+    
+    #navBar{
+      width: 100%;
+      height:100%;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      margin-top: 0.3rem;
+      margin-bottom: 0.3rem;
+      //background: $brown;
+      
+    #menu{
+        width: 90%;
+        margin: auto;
+        //background: red;
+    }
+    
+        li{ 
+            display: block !important;
+        }
+        
+        li a{
+            display: block;
+            font-size: 1.3rem;
+            height: 3rem;
+            line-height: 3rem;
+            margin-bottom: 2rem;
+            @include roundedCorners;
+        }  
+    } 
+    
+    //*******************DANCE TYPES*************************
+
+    #danceTypes{
+      display: none;
+    }
+    
+    //*******************HOME PAGE CONTENT***************
+    
+    #mainContainer{
+        width: 100%;
+        height: 100%;
+        @include stripes;
+    }
+    
+    #content{
+        width: 90%;
+        margin: auto;
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+        background: $white;
+        @include roundedCorners;
+        
+        
+        h1{
+            display: block;
+            width: 95%;
+            margin-left: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: $h1Home;
+        }
+        
+        p{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            color: $text;
+        }
+    }
+    
+     #homeTag{
+      clear: both;
+      text-align: center;
+      padding-top: 2rem;
+      color: $green;
+      font-size: 1.5rem;
+    }
+    
+    // #rightContent{
+    //     width: 90%;
+    //     margin: auto;
+    //     margin-bottom: 2rem;
+    //     // background-color: red;
+    // }
+    
+    #viewClasses{
+        display: none;
+    }
+        
+     #zumbaContainer{
+      width: 90%;
+      height: 100%;
+      margin-top: 3rem;
+      padding-bottom: 3rem;
+      margin: auto;
+      //background-color: red;
+    }
+    
+    .zumbaCom{
+        display: block;
+        background-image: url("../assets/images/zumba526.jpg");
+        background-repeat: no-repeat;
+        width: 526px;
+        max-width: 100%;
+        height: 358px;
+        margin: auto;
+    }
+
+
+    //*******************FOOTER*************************
+    
+    #footerLinks{
+        margin-top: -1rem;
+        
+        li{
+            display: block !important;
+            padding-top: 1rem;
+            line-height: 1.8rem;
+        }
+        
+        li:last-child{
+            padding-bottom: 1rem;
+        }
+        
+        a{
+            font-size: 1.5rem;
+        }
+    }
+    
+    #copyright{
+        height: 4rem;
+        margin-top: -1rem;
+        
+        p{
+            font-size: 1rem;
+            padding-top: 1rem;
+        }
+    
+    }
+    
+    //*******************IMPORT PAGES***************
+  
+    @import "_media50_about.scss";
+    @import "_media50_classes.scss";
+
+} // end of media query 50em

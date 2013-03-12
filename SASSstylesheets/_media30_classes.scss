@@ -1,0 +1,57 @@
+/* === Breakpoints set in ems, but header height in px because image is in px
+/* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */   
+//@media screen and (max-width: 30em) {
+    
+    //@import "_styles.scss";
+    
+    //*******************CLASSES PAGE CONTENT***************
+     
+    #classSchedule,
+    #priceSchedule,
+    #studentInfo{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background: $white;
+        @include roundedCorners;
+        
+        h1{
+            display: block;
+            width: 95%;
+            margin-left: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: $h1Classes;
+        }
+        
+        p{
+            margin-top: 2rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            color: $text;
+        }
+    }
+    
+    #classesTag{
+      clear: both;
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: $blue;
+      font-size: 1.5rem;
+    }
+    
+    #classes{
+        //background-color: red;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .place{
+        font-size: 1.2rem;
+    }
+    
+// } // end of media query 30em

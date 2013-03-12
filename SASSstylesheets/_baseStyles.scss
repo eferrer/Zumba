@@ -1,0 +1,352 @@
+/* ===== == = === Base Styles === = == ===== */
+
+@import "_styles.scss";
+@import "_font-awesome.scss";
+
+body{
+  font-family: $aliquamRegular;
+  background-color: $brown;
+  height: 100%;
+}
+
+#wrapper{
+  
+}
+
+#mainContainer{
+  margin: auto;
+  height:100%; 
+}
+   
+h1{
+  display: block;
+  color: $brown;
+}
+
+h2{
+  font-family: $kaushan;
+}
+
+a{
+  font-family: $aliquamRegular;
+}
+
+p {
+  font-family: $aliquamRegular;
+  font-size: 1rem;
+  color: $brown;
+}
+
+li{
+  font-family: $aliquamUltraLight;
+}
+
+.fontAwesome{
+  font-family: 'FontAwesome';
+}
+
+//*******************HEADER***************
+
+header {
+  width:100%;
+  height: 100%;
+  text-align: center;
+  background-color: $orange;
+}
+
+#logo{
+  background-color: white;
+}
+
+//*******************NAVIGATION MENU***************
+
+#navBar{
+background: $brown;
+     
+  #menu{
+    background: $brown;
+  }
+  
+  li{ 
+    display: inline-block;
+
+    a{
+      color: $white;
+      background-color: $brown;
+      outline: 3px solid $brown;
+      outline-offset: -19px;
+    }
+  }
+  
+  li.home {
+    a {
+      border: 20px solid $green;
+    }
+
+    a:hover{
+      //border: 20px solid $paleGreen;
+      background-color: $green;
+    }
+  }
+  
+  li.about {
+    a {
+    border: 20px solid $pink;
+  }
+
+  a:hover{
+      //border: 20px solid $palePink;
+      background-color: $pink;
+    }
+  }
+    
+  li.classes{
+   a {
+    border: 20px solid $blue;
+  }
+
+  a:hover{
+      //border: 20px solid $paleBlue;
+      background-color: $blue;
+    }
+  }
+    
+  li.gallery {
+    a {
+    border: 20px solid $orange;
+  }
+
+  a:hover{
+      //border: 20px solid $paleOrange;
+      background-color: $orange;
+    }
+  }
+  
+  li.contact {
+    a {
+    border: 20px solid $purple;
+  }
+
+  a:hover{
+      //border: 20px solid $palePurple;
+      background-color: $purple;
+    }
+  }
+  
+  li a:hover,
+  li a:focus,
+  li a:active {
+    color: $brown;
+    outline: 5px solid $brown;
+    outline-offset: -19px;
+  }
+}
+    
+//*******************HOME PAGE CONTENT***************
+
+#content{
+  font-family: $aliquamRegular;
+  text-align: justify;
+  height: 100%;
+}
+
+//*****************FOOTER******************
+
+footer{
+  width:100%;
+  height: 100%;
+  text-align: center;
+  background-color: $white;
+}
+  
+#footerLinks {
+    background-color: $orange;
+    
+    li{
+    display: inline-block;
+  }
+  
+  a{
+    color: $brown;
+  }
+  
+  a:hover{
+    color: $white;
+  }  
+}
+
+#copyright{
+  background-color: $brown;
+  
+  p{
+    color: $orange;
+  }
+}
+
+
+//*******************SLIDESHOW***************
+// Source: http://http://responsive-slides.viljamis.com/ v1.53 by @viljamis
+
+#slideshow{
+  position: relative;
+  margin: auto;
+  background-color: green;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 90%;
+  padding: 0;
+  margin: 0 auto;
+  
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+  
+    .centered-btns_nav {
+//display: none;
+  }
+  
+  .centered-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 50%;
+  left: 10%;
+  opacity: 0.7;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../assets/images/themes.gif") no-repeat left top;
+  margin-top: -45px;
+  }
+
+.centered-btns_nav:active {
+  opacity: 1.0;
+  }
+
+.centered-btns_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 10%;
+  }
+
+.transparent-btns_nav {
+  z-index: 3;
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 0;
+  left: 0;
+  display: block;
+  background: #fff; /* Fix for IE6-9 */
+  opacity: 0;
+  filter: alpha(opacity=1);
+  width: 48%;
+  text-indent: -9999px;
+  overflow: hidden;
+  height: 91%;
+  }
+
+.transparent-btns_nav.next {
+  left: auto;
+  right: 0;
+  }
+
+// .large-btns_nav {
+//   z-index: 3;
+//   position: absolute;
+//   -webkit-tap-highlight-color: rgba(0,0,0,0);
+//   opacity: 0.6;
+//   text-indent: -9999px;
+//   overflow: hidden;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   background: #000 url("../assets/images/themes.gif") no-repeat left 50%;
+//   width: 38px;
+//   }
+
+// .large-btns_nav:active {
+//   opacity: 1.0;
+//   }
+
+// .large-btns_nav.next {
+//   left: auto;
+//   background-position: right 50%;
+//   right: 0;
+//   }
+
+.centered-btns_nav:focus,
+.transparent-btns_nav:focus,
+.large-btns_nav:focus {
+  outline: none;
+  }
+
+.centered-btns_tabs,
+.transparent-btns_tabs,
+.large-btns_tabs {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+.centered-btns_tabs li,
+.transparent-btns_tabs li,
+.large-btns_tabs li {
+  display: inline;
+  float: none;
+  _float: left;
+  *float: left;
+  margin-right: 5px;
+  }
+
+.centered-btns_tabs a,
+.transparent-btns_tabs a,
+.large-btns_tabs a {
+  text-indent: -9999px;
+  overflow: hidden;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  background: #ccc;
+  background: rgba(0,0,0, .2);
+  display: inline-block;
+  _display: block;
+  *display: block;
+  -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+  width: 9px;
+  height: 9px;
+  }
+
+.centered-btns_here a,
+.transparent-btns_here a,
+.large-btns_here a {
+  background: #222;
+  background: rgba(0,0,0, .8);
+  }

@@ -1,0 +1,64 @@
+/* === Breakpoints set in ems, but header height in px because image is in px
+
+/* ===== == = === 801 px - 1280 px === = == ===== */ 
+ 
+@media screen and (min-width: 80.1em) {
+    
+    // @import "_styles.scss";
+
+//*******************ABOUT PAGE CONTENT***************
+
+#about{
+        float: left;
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        //background-color: red;
+        
+        h1{
+            display: block;
+            width: 95%;
+            margin-left: 1rem;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: $h1About;
+        }
+        
+        p{
+            margin-left: 1rem;
+            margin-right: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+    
+    #selfContainer{
+      width: 100%;
+      height: 100%;
+      margin-top: 5.5rem;
+    }
+    
+    .selfPhoto{
+        clear: both;
+        background-image: url("../assets/images/full/photo1.jpg");
+        background-repeat: no-repeat;
+        height: 200px;
+        max-width: 100%;
+        display: block;
+        margin-left: 1rem;
+    }
+    
+    #aboutTag{
+      clear: both;
+      margin: auto;
+      width: 95%;
+      text-align: center;
+      padding-top: 3.5rem;
+      padding-bottom: 2rem;
+      color: $pink;
+      font-size: 2rem;
+      //background-color: yellow;
+    }
+
+    
+} // end of media query 80em+

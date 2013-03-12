@@ -1,0 +1,153 @@
+// here is where all generic and base styles go eg. colors, font-families, borders
+
+//***************************************
+
+// COLOURS
+
+//***************************************
+
+$paleBlue: rgb(182, 245, 254); //#b6f5fe
+$blue: rgb(31, 224, 252); //#1fe0fc
+$paleGreen: rgb(225, 245, 184); //#e1f5b8
+$green: rgb(168, 226, 50); // #a8e232
+$palePink: rgb(249, 189, 230); // #f9bde6
+$pink: rgb(236, 49, 177); // #ec31b1
+$palePurple: rgb(221, 191, 236); // #ddbfec
+$purple: rgb(159, 74, 200); // #9f4ac8
+$paleOrange: rgb(252, 218, 178); // #fcdab2
+$orange: rgb(247, 147, 30); // #F7931E;
+$white: rgb(255, 255, 255);
+$brown: rgb(20, 8, 10);
+
+$text: rgb(153, 153, 153);
+
+//***************************************
+
+// MIXINS
+
+//***************************************
+
+@mixin stripes{
+    background-size:10px 10px;
+    // background-color: rgba(159, 164, 166, 0.15);
+    background-color: rgba(20, 8, 10, 0.1);
+    background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
+    background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
+    background-image: -mslinear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
+    background-image: -olinear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent); 
+}
+
+@mixin roundedCorners{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+@mixin boxShadow{
+    -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
+    -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
+    -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
+    box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
+    }
+    
+@mixin borderShadow{
+    -webkit-box-shadow: 8px 9px 20px rgb(122, 123, 84);
+    -moz-box-shadow: 8px 9px 20px rgb(122, 123, 84);
+    -o-box-shadow: 8px 9px 20px rgb(122, 123, 84);
+    box-shadow: 8px 9px 20px rgb(122, 123, 84);
+    }
+    
+@mixin menuGradient{
+    background: #dfdfd3; /* Old browsers */
+background: -moz-linear-gradient(top,  #dfdfd3 0%, #d1d0bf 50%, #c3c1ab 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfd3), color-stop(50%,#d1d0bf), color-stop(100%,#c3c1ab)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfd3', endColorstr='#c3c1ab',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin subMenuGradient{
+    background: #dfdfd3; /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmZGZkMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2QxZDBiZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjM2MxYWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  #dfdfd3 0%, #d1d0bf 50%, #c3c1ab 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfd3), color-stop(50%,#d1d0bf), color-stop(100%,#c3c1ab)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfd3', endColorstr='#c3c1ab',GradientType=0 ); /* IE6-8 */
+}
+    
+//***************************************
+
+// BORDERS AND OUTLINES
+
+//***************************************
+
+$h1Home: 8px solid $green;
+$h1About: 8px solid $pink;
+$h1Classes: 8px solid $blue;
+$h1Gallery: 8px solid $orange;
+$h1Contact: 8px solid $purple;
+$fineGreenBorder: 1px solid $green;
+$borderContainer: 60px solid $white;
+
+//***************************************
+
+// FONT STYLES
+
+//***************************************
+
+$font-size: 1rem;
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on February 28, 2013 */
+
+$journal: 'journalregular', sans-serif;
+$aliquamUltraLight: 'aliquamultralight', sans-serif;
+$aliquamRegular: 'aliquamregular', sans-serif;
+$fontAwesome: 'FontAwesome';
+$kaushan: 'Kaushan Script', cursive;
+
+
+@font-face {
+    font-family: 'aliquamultralight';
+    src: url('../assets/fonts/aliquam-webfont.eot');
+    src: url('../assets/fonts/aliquam-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/aliquam-webfont.woff') format('woff'),
+         url('../assets/fonts/aliquam-webfont.ttf') format('truetype'),
+         url('../assets/fonts/aliquam-webfont.svg#../assets/fonts/aliquamultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aliquamregular';
+    src: url('../assets/fonts/aliquamreg-webfont.eot');
+    src: url('../assets/fonts/aliquamreg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/aliquamreg-webfont.woff') format('woff'),
+         url('../assets/fonts/aliquamreg-webfont.ttf') format('truetype'),
+         url('../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'journalregular';
+    src: url('../assets/fonts/journal-webfont.eot');
+    src: url('../assets/fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/fonts/journal-webfont.woff') format('woff'),
+         url('../assets/fonts/journal-webfont.ttf') format('truetype'),
+         url('../assets/fonts/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
