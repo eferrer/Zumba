@@ -46,12 +46,17 @@ font-size: 1.5rem;
 
 //*******************CLASS SCHEDULE CONTENT***************
 
+.classDetails{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 0rem;
+    height: 100%;
+    //background-color: blue;
+}
+
+
 #classTimes{
-  width: 90%;
-  margin: auto;
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: $classTimesBorder;
   
   li{
       line-height: 1.5rem;
@@ -59,18 +64,12 @@ font-size: 1.5rem;
   }
 }
 
-#classTimes:last-child{
-border-bottom: none;
-}
-
 .day{
-  float: left;
   width: 50%;
   font-size: 1.1rem;
 }
 
 .time{
-  float: left;
   width: 40%;
   font-size: 1.1rem;
 }
@@ -82,16 +81,31 @@ border-bottom: none;
 }
 
 .directions{
-  
-  a{
-      display: block;
-      color: $blue;
-      padding-top: 1rem;
-  }
-  
-  a:hover{
-      color: $brown;
-  }
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: $classTimesBorder;
+    //background-color: red;
+}
+
+.directions:last-child{
+    border-bottom: none;
+}
+
+.mapHolder{
+    margin-bottom: 2rem;
+}
+
+#toggleButton{
+  display: block;
+  font-family: $aliquamRegular;
+  color: $white;
+  letter-spacing: 0.1rem;
+  background-color: $blue;
+  border: $h3ClassesBorder;
+  @include roundedCorners;
 }
 
 //*******************PRICE SCHEDULE CONTENT***************   
