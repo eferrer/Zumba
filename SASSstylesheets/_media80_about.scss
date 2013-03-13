@@ -1,11 +1,7 @@
-/* === Breakpoints set in ems, but header height in px because image is in px
+ /* 801 - 1280 */
 
-/* 801 - 1280 */
-
-@media screen and (min-width: 50.1em) and (max-width: 80em)  {
-    
-    //@import "_styles.scss";
-    
+//@media screen and (min-width: 50.1em) and (max-width: 80em)     
+  
     //*******************ABOUT PAGE CONTENT***************
      
     #about{
@@ -63,6 +59,3 @@
       //background-color: yellow;
     }
     
-    
-    
-} // end of media query 80em
