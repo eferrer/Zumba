@@ -109,27 +109,27 @@
     }
     
     #content{
-        float: left;
-        width: 60%;
-        margin-left: 3%;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        //background-color: red;
+      float: left;
+      width: 60%;
+      margin-left: 3%;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+      //background-color: yellow;
         
          h1{
-            display: block;
-            width: 95%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1Home;
+          display: block;
+          width: 95%;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-bottom: $h1Home;
         }
-        
-        p{
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            width: 90%;
-            margin: auto;
-        }
+    }
+    
+    .info{
+      width: 90%;
+      margin: auto;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
     
      h2{

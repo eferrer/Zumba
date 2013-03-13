@@ -25,15 +25,13 @@
             padding-bottom: 1rem;
             border-bottom: $h1Classes;
         }
-        
-        p{
-            margin-top: 8rem;
-            margin-bottom: 2rem;
-            width: 90%;
-            margin: auto;
-            //margin-left: 5%;
-            background-color: red;
-        }
+    }
+    
+    .info{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
     
     //*******************TAG LINE*************************
@@ -46,7 +44,7 @@
       padding-bottom: 1rem;
       color: $blue;
       font-size: 1.5rem;
-      //background-color: red;
+      background-color: red;
     }
     
     //*******************CLASS SCHEDULE CONTENT***************
