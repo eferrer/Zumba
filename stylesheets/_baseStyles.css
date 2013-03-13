@@ -1369,11 +1369,16 @@ h2 {
   font-family: "Kaushan Script", cursive; }
 
 /* line 31, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+h3 {
+  font-family: "aliquamregular", sans-serif;
+  color: #14080a; }
+
+/* line 36, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 a {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem; }
 
-/* line 36, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 41, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 p {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem;
@@ -1381,72 +1386,72 @@ p {
   line-height: 1.5rem;
   color: #999999; }
 
-/* line 44, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 49, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 li {
   font-family: "aliquamultralight", sans-serif;
   letter-spacing: 0.1rem; }
 
-/* line 49, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 54, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .fontAwesome {
   font-family: 'FontAwesome'; }
 
-/* line 55, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 60, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 header {
   width: 100%;
   height: 100%;
   text-align: center;
   background-color: #f7931e; }
 
-/* line 62, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 67, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 #logo {
   background-color: white; }
 
-/* line 68, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 73, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 #navBar {
   background: #14080a; }
-  /* line 71, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 76, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar #menu {
     background: #14080a; }
-  /* line 75, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 80, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li {
     display: inline-block; }
-    /* line 78, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+    /* line 83, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
     #navBar li a {
       color: white;
       background-color: #14080a;
       outline: 3px solid #14080a;
       outline-offset: -19px; }
-  /* line 87, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 92, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.home a {
     border: 20px solid #a8e232; }
-  /* line 91, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 96, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.home a:hover {
     background-color: #a8e232; }
-  /* line 98, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 103, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.about a {
     border: 20px solid #ec31b1; }
-  /* line 102, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 107, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.about a:hover {
     background-color: #ec31b1; }
-  /* line 109, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 114, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.classes a {
     border: 20px solid #1fe0fc; }
-  /* line 113, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 118, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.classes a:hover {
     background-color: #1fe0fc; }
-  /* line 119, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 124, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.gallery a {
     border: 20px solid #f7931e; }
-  /* line 123, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 128, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.gallery a:hover {
     background-color: #f7931e; }
-  /* line 129, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 134, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.contact a {
     border: 20px solid #9f4ac8; }
-  /* line 133, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 138, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li.contact a:hover {
     background-color: #9f4ac8; }
-  /* line 140, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 145, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #navBar li a:hover,
   #navBar li a:focus,
   #navBar li a:active {
@@ -1454,40 +1459,40 @@ header {
     outline: 5px solid #14080a;
     outline-offset: -19px; }
 
-/* line 158, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 163, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 footer {
   width: 100%;
   height: 100%;
   text-align: center;
   background-color: white; }
 
-/* line 165, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 170, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 #footerLinks {
   background-color: #f7931e; }
-  /* line 168, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 173, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #footerLinks li {
     display: inline-block; }
-  /* line 172, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 177, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #footerLinks a {
     color: #14080a; }
-  /* line 176, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 181, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #footerLinks a:hover {
     color: white; }
 
-/* line 181, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 186, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 #copyright {
   background-color: #14080a; }
-  /* line 184, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+  /* line 189, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
   #copyright p {
     color: #f7931e; }
 
-/* line 193, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 198, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 #slideshow {
   position: relative;
   margin: auto;
   background-color: green; }
 
-/* line 199, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 204, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -1496,7 +1501,7 @@ footer {
   padding: 0;
   margin: 0 auto; }
 
-/* line 209, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 214, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -1505,13 +1510,13 @@ footer {
   left: 0;
   top: 0; }
 
-/* line 218, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 223, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left; }
 
-/* line 224, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 229, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -1519,7 +1524,7 @@ footer {
   width: 100%;
   border: 0; }
 
-/* line 236, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 241, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav {
   z-index: 3;
   position: absolute;
@@ -1535,17 +1540,17 @@ footer {
   background: transparent url("../assets/images/themes.gif") no-repeat left top;
   margin-top: -45px; }
 
-/* line 252, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 257, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav:active {
   opacity: 1.0; }
 
-/* line 256, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 261, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav.next {
   left: auto;
   background-position: right top;
   right: 10%; }
 
-/* line 262, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 267, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .transparent-btns_nav {
   z-index: 3;
   position: absolute;
@@ -1562,25 +1567,25 @@ footer {
   overflow: hidden;
   height: 91%; }
 
-/* line 278, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 283, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .transparent-btns_nav.next {
   left: auto;
   right: 0; }
 
-/* line 309, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 314, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav:focus,
 .transparent-btns_nav:focus,
 .large-btns_nav:focus {
   outline: none; }
 
-/* line 315, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 320, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs,
 .transparent-btns_tabs,
 .large-btns_tabs {
   margin-top: 10px;
   text-align: center; }
 
-/* line 322, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 327, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs li,
 .transparent-btns_tabs li,
 .large-btns_tabs li {
@@ -1590,7 +1595,7 @@ footer {
   *float: left;
   margin-right: 5px; }
 
-/* line 332, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 337, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs a,
 .transparent-btns_tabs a,
 .large-btns_tabs a {
@@ -1610,7 +1615,7 @@ footer {
   width: 9px;
   height: 9px; }
 
-/* line 352, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
+/* line 357, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_baseStyles.scss */
 .centered-btns_here a,
 .transparent-btns_here a,
 .large-btns_here a {
