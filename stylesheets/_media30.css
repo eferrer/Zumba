@@ -89,7 +89,7 @@
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #a8e232; }
+      border-bottom: 5px solid #a8e232; }
 
   .info {
     width: 90%;
@@ -147,7 +147,7 @@
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #ec31b1; }
+      border-bottom: 5px solid #ec31b1; }
 
   .info {
     width: 90%;
@@ -167,7 +167,6 @@
   #selfContainer {
     display: none; }
 
-  /* === Breakpoints set in ems, but header height in px because image is in px
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
   #classSchedule,
   #priceSchedule,
@@ -189,7 +188,7 @@
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #1fe0fc; }
+      border-bottom: 5px solid #1fe0fc; }
 
   .info {
     width: 90%;
@@ -204,31 +203,30 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     color: #1fe0fc;
-    font-size: 1.5rem;
-    background-color: red; }
+    font-size: 1.5rem; }
 
-  #classes {
+  #classTimes {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px ridge #1fe0fc; }
-    #classes li {
+    border-bottom: 1px dotted #1fe0fc; }
+    #classTimes li {
       line-height: 1.5rem;
       color: #999999; }
 
-  #classes:last-child {
+  #classTimes:last-child {
     border-bottom: none; }
 
   .day {
     float: left;
     width: 50%;
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
 
   .time {
     float: left;
-    width: 30%;
-    font-size: 1.1rem; }
+    width: 40%;
+    font-size: 1.2rem; }
 
   .place {
     clear: both;
@@ -242,9 +240,19 @@
   .directions a:hover {
     color: #14080a; }
 
-  .classType {
-    line-height: 2.5rem;
-    border-bottom: 1px solid #999999; }
+  .classPrice {
+    width: 90%;
+    margin: auto; }
+
+  .classPrice h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #1fe0fc; }
+
+  .classPrice p {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
 
   #studentInfo h3 {
     display: inline;

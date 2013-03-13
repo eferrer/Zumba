@@ -110,7 +110,7 @@
       width: 95%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #a8e232; }
+      border-bottom: 5px solid #a8e232; }
 
   .info {
     width: 90%;
@@ -316,22 +316,16 @@
   /* === Breakpoints set in ems, but header height in px because image is in px
   
   /* ===== == = === 801 px - 1280 px === = == ===== */
-  /* === Breakpoints set in ems, but header height in px because image is in px
-  
-  /* ===== == = === 801 px - 1280 px === = == ===== */ }
-@media screen and (min-width: 80.1em) and (min-width: 80.1em) {
-  #about {
-    float: left;
-    width: 55%;
-    margin-left: 4%;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
-    #about h1 {
-      display: block;
-      width: 95%;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: 8px solid #ec31b1; }
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  #classSchedule h1,
+  #priceSchedule h1,
+  #studentInfo h1 {
+    display: block;
+    width: 95%;
+    margin-left: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 5px solid #1fe0fc; }
 
   .info {
     width: 90%;
@@ -339,29 +333,80 @@
     margin-top: 2rem;
     margin-bottom: 2rem; }
 
-  #selfContainer {
-    width: 100%;
-    height: 100%;
-    margin-top: 3.5rem;
-    background-color: red; }
-
-  .selfPhoto {
-    clear: both;
-    background-image: url("../assets/images/full/photo1.jpg");
-    background-repeat: no-repeat;
-    height: 200px;
-    max-width: 100%;
-    display: block; }
-
-  #aboutTag {
-    clear: both;
+  #classesTag {
+    width: 90%;
     margin: auto;
-    width: 95%;
     text-align: center;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
-    color: #ec31b1;
-    font-size: 2rem; } }
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #1fe0fc;
+    font-size: 1.5rem; }
+
+  #classTimes {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #1fe0fc; }
+    #classTimes li {
+      line-height: 1.5rem;
+      color: #999999; }
+
+  #classTimes:last-child {
+    border-bottom: none; }
+
+  .day {
+    float: left;
+    width: 50%;
+    font-size: 1.1rem; }
+
+  .time {
+    float: left;
+    width: 30%;
+    font-size: 1.1rem; }
+
+  .place {
+    clear: both;
+    text-transform: uppercase;
+    padding-top: 1rem; }
+
+  .directions a {
+    display: block;
+    color: #1fe0fc;
+    padding-top: 1rem; }
+  .directions a:hover {
+    color: #14080a; }
+
+  .classPrice {
+    width: 90%;
+    margin: auto; }
+
+  .classPrice h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #1fe0fc; }
+
+  .classPrice p {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+
+  #studentInfo h3 {
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 5%;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #1fe0fc; }
+
+  .needs {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem; }
+    .needs li {
+      line-height: 1.5rem;
+      list-style-type: disc;
+      list-style-position: inside;
+      color: #999999; } }
 @media screen and (min-width: 80.1em) and (min-width: 80.1em) {
   #about {
     float: left;
@@ -374,12 +419,13 @@
       width: 95%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #ec31b1; }
-    #about p {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      width: 90%;
-      margin: auto; }
+      border-bottom: 5px solid #ec31b1; }
+
+  .info {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
 
   #selfContainer {
     width: 100%;

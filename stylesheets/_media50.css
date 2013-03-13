@@ -96,7 +96,7 @@
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #a8e232; }
+      border-bottom: 5px solid #a8e232; }
 
   .info {
     width: 90%;
@@ -154,10 +154,109 @@
          
   /* Target landscape smartphones, portrait tablets, narrow desktops
   /* ===== == = === 481 px - 800 px === = == ===== */
-  /* === Breakpoints set in ems, but header height in px because image is in px
-         
-  /* Target landscape smartphones, portrait tablets, narrow desktops
-  /* ===== == = === 481 px - 800 px === = == ===== */ }
+  /* ===== == = === 481 px - 800 px === = == ===== */
+  #classSchedule,
+  #priceSchedule,
+  #studentInfo {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
+    #classSchedule h1,
+    #priceSchedule h1,
+    #studentInfo h1 {
+      display: block;
+      width: 95%;
+      margin-left: 5%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 5px solid #1fe0fc; }
+
+  .info {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+
+  #classesTag {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: #1fe0fc;
+    font-size: 1.5rem; }
+
+  #classTimes {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px dotted #1fe0fc; }
+    #classTimes li {
+      line-height: 1.5rem;
+      color: #999999; }
+
+  #classTimes:last-child {
+    border-bottom: none; }
+
+  .day {
+    float: left;
+    width: 50%;
+    font-size: 1.1rem; }
+
+  .time {
+    float: left;
+    width: 40%;
+    font-size: 1.1rem; }
+
+  .place {
+    clear: both;
+    text-transform: uppercase;
+    padding-top: 1rem; }
+
+  .directions a {
+    display: block;
+    color: #1fe0fc;
+    padding-top: 1rem; }
+  .directions a:hover {
+    color: #14080a; }
+
+  .classPrice {
+    width: 90%;
+    margin: auto; }
+
+  .classPrice h3 {
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #1fe0fc; }
+
+  .classPrice p {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+
+  #studentInfo h3 {
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 5%;
+    padding-bottom: 0.8rem;
+    border-bottom: 1px solid #1fe0fc; }
+
+  .needs {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem; }
+    .needs li {
+      line-height: 1.5rem;
+      list-style-type: disc;
+      list-style-position: inside;
+      color: #999999; } }
 @media screen and (min-width: 30.1em) and (max-width: 50em) and (min-width: 30.1em) and (max-width: 50em) {
   #about {
     width: 90%;
@@ -175,7 +274,7 @@
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
-      border-bottom: 8px solid #ec31b1; }
+      border-bottom: 5px solid #ec31b1; }
 
   .info {
     width: 90%;
@@ -186,34 +285,6 @@
   #aboutTag {
     width: 90%;
     margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: #ec31b1;
-    font-size: 1.5rem; }
-
-  #selfphoto {
-    display: none; } }
-@media screen and (min-width: 30.1em) and (max-width: 50em) and (min-width: 30.1em) and (max-width: 50em) {
-  #about {
-    width: 90%;
-    margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background: white;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px; }
-    #about h1 {
-      display: block;
-      width: 95%;
-      margin-left: 1rem;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: 8px solid #ec31b1; }
-
-  #aboutTag {
-    clear: both;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 1rem;
