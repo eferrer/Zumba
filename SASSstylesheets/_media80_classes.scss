@@ -1,66 +1,134 @@
-/* === Breakpoints set in ems, but header height in px because image is in px
-
 /* 801 - 1280 */
 
-@media screen and (min-width: 50.1em) and (max-width: 80em)  {
-    
-    //@import "_styles.scss";
-    
-    //*******************ABOUT PAGE CONTENT***************
-     
-    #about{
-        float: left;
-        width: 55%;
-        margin-left: 4%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        //background-color: red;
-        
-        h1{
-            display: block;
-            width: 95%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1About;
-        }
-        
-        p{
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-            width: 90%;
-            margin: auto;
-        }
-    }
-    
-    #selfContainer{
-      width: 100%;
-      height: 100%;
-      margin-top: 3.5rem;
-      
-    }
-    
-    .selfPhoto{
-        clear: both;
-        background-image: url("../assets/images/full/photo1.jpg");
-        background-repeat: no-repeat;
-        height: 200px;
-        max-width: 100%;
-        display: block;
-        margin-left: 1rem;
-    }
-    
-    #aboutTag{
-      clear: both;
-      margin: auto;
+//@media screen and (min-width: 50.1em) and (max-width: 80em)
+
+//*******************CLASSES PAGE CONTENT***************
+
+#classSchedule,
+#priceSchedule,
+#studentInfo{
+  
+  h1{
+      display: block;
       width: 95%;
-      text-align: center;
-      padding-top: 3.5rem;
-      padding-bottom: 2rem;
-      color: $pink;
-      font-size: 2rem;
-      //background-color: yellow;
-    }
+      margin-left: 5%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: $h1Classes;
+  }
+}
+
+.info{
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+//*******************TAG LINE*************************
+
+#classesTag{
+width: 90%;
+margin: auto;
+text-align: center;
+padding-top: 2rem;
+padding-bottom: 1rem;
+color: $blue;
+font-size: 1.5rem;
+}
+
+//*******************CLASS SCHEDULE CONTENT***************
+
+#classTimes{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: $classTimesBorder;
+  
+  li{
+      line-height: 1.5rem;
+      color: $text;
+  }
+}
+
+#classTimes:last-child{
+  border-bottom: none;
+}
+
+.day{
+  float: left;
+  width: 50%;
+  font-size: 1.1rem;
+}
+
+.time{
+  float: left;
+  width: 30%;
+  font-size: 1.1rem;
+}
+
+.place{
+  clear: both;
+  text-transform: uppercase;
+  padding-top: 1rem;
+}
+
+.directions{
+  
+  a{
+      display: block;
+      color: $blue;
+      padding-top: 1rem;
+  }
+  
+  a:hover{
+      color: $brown;
+  }
+}
+
+//*******************PRICE SCHEDULE CONTENT***************   
+.classPrice{
+  width: 90%;
+  margin: auto;
+  //margin-top: 2rem;
+  //margin-bottom: 2rem;
+}
+
+.classPrice h3{
+  display: inline;
+  margin-top: 2rem;
+  padding-bottom: 0.8rem;
+  border-bottom: $h3ClassesBorder;
+}
+
+.classPrice p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+//*******************STUDENT INFORMATION CONTENT*************** 
+
+#studentInfo h3{
+  display: inline;
+  margin-top: 2rem;
+  margin-left: 5%;
+  padding-bottom: 0.8rem;
+  border-bottom: $h3ClassesBorder;
+}
+
+.needs{
+  //background-color: blue;
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  
+  li{
+      line-height: 1.5rem;
+      list-style-type: disc;
+      list-style-position: inside;
+      color: $text;
+  }
+}
     
-    
-    
-} // end of media query 80em
+  

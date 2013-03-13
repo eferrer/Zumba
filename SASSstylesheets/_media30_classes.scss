@@ -1,137 +1,140 @@
-/* === Breakpoints set in ems, but header height in px because image is in px
 /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */   
 //@media screen and (max-width: 30em) {
     
-    //@import "_styles.scss";
     
-    //*******************CLASSES PAGE CONTENT***************
-     
-    #classSchedule,
-    #priceSchedule,
-    #studentInfo{
-        width: 90%;
-        height: 100%;
-        margin: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        background: $white;
-        @include roundedCorners;
-        
-        h1{
-            display: block;
-            width: 95%;
-            margin-left: 5%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1Classes;
-        }
-    }
-    
-    .info{
-        width: 90%;
-        margin: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-    }
-    
-    //*******************TAG LINE*************************
-
-    #classesTag{
-      width: 90%;
-      margin: auto;
-      text-align: center;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
-      color: $blue;
-      font-size: 1.5rem;
-      background-color: red;
-    }
-    
-    //*******************CLASS SCHEDULE CONTENT***************
-
-    #classes{
-        width: 90%;
-        margin: auto;
-        margin-bottom: 2rem;
-        padding-bottom: 1rem;
-        border-bottom: 1px ridge $blue;
-        
-        li{
-            line-height: 1.5rem;
-            color: $text;
-        }
-    }
-
-   #classes:last-child{
-    border-bottom: none;
-   }
-
-    .day{
-        float: left;
-        width: 50%;
-        font-size: 1.1rem;
-    }
-    
-    .time{
-        float: left;
-        width: 30%;
-        font-size: 1.1rem;
-    }
+//*******************CLASSES PAGE CONTENT***************
  
-    .place{
-        clear: both;
-        text-transform: uppercase;
+#classSchedule,
+#priceSchedule,
+#studentInfo{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: $white;
+    @include roundedCorners;
+    
+    h1{
+        display: block;
+        width: 95%;
+        margin-left: 5%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: $h1Classes;
+    }
+}
+
+.info{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+//*******************TAG LINE*************************
+
+#classesTag{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: $blue;
+    font-size: 1.5rem;
+}
+
+//*******************CLASS SCHEDULE CONTENT***************
+
+#classTimes{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: $classTimesBorder;
+    
+    li{
+        line-height: 1.5rem;
+        color: $text;
+    }
+}
+
+#classTimes:last-child{
+    border-bottom: none;
+}
+
+.day{
+    float: left;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.time{
+    float: left;
+    width: 40%;
+    font-size: 1.2rem;
+}
+
+.place{
+    clear: both;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+.directions{
+    
+    a{
+        display: block;
+        color: $blue;
         padding-top: 1rem;
     }
     
-    .address{
-        
+    a:hover{
+        color: $brown;
     }
-    
-    .directions{
-        
-        a{
-            display: block;
-            color: $blue;
-            padding-top: 1rem;
-        }
-        
-        a:hover{
-            color: $brown;
-        }
+}
+
+//*******************PRICE SCHEDULE CONTENT***************   
+
+
+.classPrice{
+    width: 90%;
+    margin: auto;
+}
+
+.classPrice h3{
+    display: inline;
+    margin-top: 2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: $h3ClassesBorder;
+ }
+ 
+ .classPrice p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+
+ //*******************STUDENT INFORMATION CONTENT*************** 
+
+ #studentInfo h3{
+    display: inline;
+    margin-top: 2rem;
+    margin-left: 5%;
+    padding-bottom: 0.8rem;
+    border-bottom: $h3ClassesBorder;
+ }
+
+.needs{
+//background-color: blue;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+
+    li{
+        line-height: 1.5rem;
+        list-style-type: disc;
+        list-style-position: inside;
+        //text-indent: -1rem;
+        color: $text;
     }
-    
- //*******************PRICE SCHEDULE CONTENT***************   
-    
-    .classType{
-        line-height: 2.5rem;
-        border-bottom:  1px solid $text;
-    }
-
-     //*******************STUDENT INFORMATION CONTENT*************** 
-
-     #studentInfo h3{
-        display: inline;
-        margin-top: 2rem;
-        margin-left: 5%;
-        padding-bottom: 0.8rem;
-        border-bottom: 1px solid $blue;
-     }
-
-     .needs{
-        //background-color: blue;
-        width: 90%;
-        margin: auto;
-        margin-top: 2rem;
-        
-        li{
-            line-height: 1.5rem;
-            list-style-type: disc;
-            list-style-position: inside;
-            //text-indent: -1rem;
-            color: $text;
-        }
-     }
-
-
-// } // end of media query 30em
+}
