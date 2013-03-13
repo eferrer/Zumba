@@ -1,0 +1,64 @@
+/* ===== == = === 801 px - 1280 px === = == ===== */ 
+ 
+//@media screen and (min-width: 80.1em) 
+
+//*******************ABOUT PAGE CONTENT***************
+
+#about{
+        float: left;
+        width: 55%;
+        margin-left: 4%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        
+        h1{
+            display: block;
+            width: 95%;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: $h1About;
+        }
+    }
+    
+     .info{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+     //*******************YOUTUBE VIDEO***************
+
+     #video{
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+            //background-color: red;
+      }
+
+      #video iframe,  
+      #video object,  
+      #video embed {
+            position: absolute;
+            top: 3rem;
+            left: 2rem;
+            width: 90%;
+            height: 90%;
+      }
+    
+    
+     //*******************TAG LINE*************************
+
+    #galleryTag{
+      clear: both;
+      margin: auto;
+      width: 95%;
+      text-align: center;
+      padding-top: 3.5rem;
+      padding-bottom: 2rem;
+      color: $orange;
+      font-size: 2rem;
+      //background-color: yellow;
+    }

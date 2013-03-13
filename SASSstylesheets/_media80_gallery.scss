@@ -1,0 +1,51 @@
+ /* 801 - 1280 */
+
+//@media screen and (min-width: 50.1em) and (max-width: 80em)     
+  
+    //*******************ABOUT PAGE CONTENT***************
+     
+    #videoContainer{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background: $white;
+        @include roundedCorners;
+      }
+
+     //*******************YOUTUBE VIDEO***************
+
+     #video{
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+            //background-color: red;
+      }
+
+      #video iframe,  
+      #video object,  
+      #video embed {
+            position: absolute;
+            top: 3rem;
+            left: 2rem;
+            width: 90%;
+            height: 90%;
+      }
+    
+    //*******************TAG LINE*************************
+
+    #galleryTag{
+      clear: both;
+      margin: auto;
+      width: 95%;
+      text-align: center;
+      padding-top: 3.5rem;
+      padding-bottom: 2rem;
+      color: $orange;
+      font-size: 2rem;
+      //background-color: yellow;
+    }
+    
