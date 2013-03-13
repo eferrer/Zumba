@@ -4,11 +4,11 @@
           
     
             
-            //***************************************
+            //***************************************************************
             
-            // For media30 do not display About Me or Gallery in the menu
+            // For mobile and tablet, move the tag line into the container box
             
-            //***************************************
+            //****************************************************************
             
             var delay = (function(){
             var timer = 0;
@@ -57,8 +57,6 @@
 
             });
             
-            
-            
             //***************************************
             
             // SLIDESHOW
@@ -66,36 +64,40 @@
             
             //***************************************
    
-             $(function() {
-                $(".rslides").responsiveSlides();
-             });
+             // $(function() {
+             //    $(".rslides").responsiveSlides();
+             // });
              
-              $("#slider1").responsiveSlides({
-                auto: false,
-                pager: true,
-                nav: true,
-                speed: 500,
-                maxwidth: 800,
-                namespace: "centered-btns"
-              });
-
-      //***************************************        
-             
-       //$("#footerLinks").hide();
-           
-           $("a").click(function(){
-		$(this).blur();
-	});
-           
-            //When mouse rolls over
-            $("li").mouseover(function(){
-                      $(this).stop().animate({height:'150px'},{queue:false, duration:600, easing: 'easeOutBounce'})
-            });
-
-            //When mouse is removed
-            $("li").mouseout(function(){
-            $(this).stop().animate({height:'50px'},{queue:false, duration:600, easing: 'easeOutBounce'})
-            });
-        
+             //  $("#slider1").responsiveSlides({
+             //    auto: false,
+             //    pager: true,
+             //    nav: true,
+             //    speed: 500,
+             //    maxwidth: 800,
+             //    namespace: "centered-btns"
+             //  });
+     
+        //***************************************
+            
+            // TOGGLE  VIEW DIRECTION
+            
+            //***************************************
+            
+            // the disclaimer is hidden by default
+            // when the "show" button is clicked, show the disclaimer
+            // hide the disclaimer when "hide" button is clicked
+            
+            $('#details').hide();
+            
+            // $('#toggleButton').click(function(){
+            //     $('#details').toggle();
+                
+            //   if($('#details').is(':visible')){
+            //     $(this).attr('value', 'Hide Directions');
+            //     }else{
+            //         $(this).attr('value', 'View Directions');
+            //     }
+                
+            // }); //eof disclaimer toggle
 
 }); // eof ready
