@@ -24,9 +24,6 @@
         //margin-bottom: 2rem;
     }
     
-    #video{
-        display: none;
-    }
          
     //*******************NAVIGATION MENU***************
     
@@ -49,9 +46,9 @@
             display: block !important;
         }
         
-        li:nth-child(4){
-            display: none !important;
-        }
+        // li:nth-child(4){
+        //     display: none !important;
+        // }
         
         li a{
             display: block;
