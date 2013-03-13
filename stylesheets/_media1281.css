@@ -355,9 +355,56 @@
     background: #222;
     background: rgba(0, 0, 0, 0.8); }
 
-  /* === Breakpoints set in ems, but header height in px because image is in px
-  
   /* ===== == = === 801 px - 1280 px === = == ===== */
+  /* line 7, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+  #about {
+    float: left;
+    width: 55%;
+    margin-left: 4%;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+    /* line 14, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+    #about h1 {
+      display: block;
+      width: 95%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 5px solid #ec31b1; }
+
+  /* line 23, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+  .info {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+
+  /* line 32, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+  #selfContainer {
+    width: 100%;
+    height: 100%;
+    margin-top: 3.5rem;
+    background-color: red; }
+
+  /* line 39, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+  .selfPhoto {
+    clear: both;
+    background-image: url("../assets/images/full/photo1.jpg");
+    background-repeat: no-repeat;
+    height: 200px;
+    max-width: 100%;
+    display: block; }
+
+  /* line 50, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
+  #aboutTag {
+    clear: both;
+    margin: auto;
+    width: 95%;
+    text-align: center;
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    color: #ec31b1;
+    font-size: 2rem; }
+
   /* ===== == = === 801 px - 1280 px === = == ===== */
   /* line 11, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   #classSchedule h1,
@@ -388,66 +435,90 @@
     font-size: 1.5rem; }
 
   /* line 42, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
-  #classTimes {
+  .classDetails {
     width: 90%;
     margin: auto;
     margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px dotted #1fe0fc; }
-    /* line 49, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
-    #classTimes li {
-      line-height: 1.5rem;
-      color: #999999; }
+    padding-bottom: 0rem;
+    height: 100%; }
 
-  /* line 55, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
-  #classTimes:last-child {
-    border-bottom: none; }
+  /* line 53, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  #classTimes li {
+    line-height: 1.5rem;
+    color: #999999; }
 
-  /* line 59, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 60, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .day {
     float: left;
-    width: 50%;
+    width: 25%;
     font-size: 1.1rem; }
 
-  /* line 65, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 66, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .time {
     float: left;
-    width: 30%;
+    width: 25%;
     font-size: 1.1rem; }
 
-  /* line 71, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 72, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .place {
+    float: right;
+    width: 45%;
+    text-transform: uppercase; }
+
+  /* line 78, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  .address {
     clear: both;
-    text-transform: uppercase;
-    padding-top: 1rem; }
+    float: right;
+    width: 45%; }
 
-  /* line 79, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
-  .directions a {
+  /* line 84, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  .directions {
+    clear: both;
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted #1fe0fc; }
+
+  /* line 95, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  .directions:last-child {
+    border-bottom: none; }
+
+  /* line 99, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  .mapHolder {
+    margin-bottom: 2rem; }
+
+  /* line 103, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  #toggleButton {
     display: block;
-    color: #1fe0fc;
-    padding-top: 1rem; }
-  /* line 85, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
-  .directions a:hover {
-    color: #14080a; }
+    font-family: "aliquamregular", sans-serif;
+    color: white;
+    letter-spacing: 0.1rem;
+    background-color: #1fe0fc;
+    border: 1px solid #1fe0fc;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
 
-  /* line 91, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 114, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .classPrice {
     width: 90%;
     margin: auto; }
 
-  /* line 98, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 121, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .classPrice h3 {
     display: inline;
     margin-top: 2rem;
     padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc; }
 
-  /* line 105, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 128, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .classPrice p {
     margin-top: 2rem;
     margin-bottom: 2rem; }
 
-  /* line 112, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 135, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   #studentInfo h3 {
     display: inline;
     margin-top: 2rem;
@@ -455,63 +526,56 @@
     padding-bottom: 0.8rem;
     border-bottom: 1px solid #1fe0fc; }
 
-  /* line 120, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+  /* line 143, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
   .needs {
     width: 90%;
     margin: auto;
     margin-top: 2rem; }
-    /* line 126, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
+    /* line 149, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_classes.scss */
     .needs li {
       line-height: 1.5rem;
       list-style-type: disc;
       list-style-position: inside;
-      color: #999999; } }
-@media screen and (min-width: 80.1em) and (min-width: 80.1em) {
-  /* line 11, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-  #about {
-    float: left;
-    width: 55%;
-    margin-left: 4%;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
-    /* line 18, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-    #about h1 {
-      display: block;
-      width: 95%;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: 5px solid #ec31b1; }
+      color: #999999; }
 
-  /* line 27, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-  .info {
+  /* ===== == = === 801 px - 1280 px === = == ===== */
+  /* line 7, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_gallery.scss */
+  #videoContainer {
     width: 90%;
+    height: 100%;
     margin: auto;
     margin-top: 2rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    background: white;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; }
 
-  /* line 36, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-  #selfContainer {
-    width: 100%;
-    height: 100%;
-    margin-top: 3.5rem;
-    background-color: red; }
+  /* line 19, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_gallery.scss */
+  #video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; }
 
-  /* line 43, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-  .selfPhoto {
-    clear: both;
-    background-image: url("../assets/images/full/photo1.jpg");
-    background-repeat: no-repeat;
-    height: 200px;
-    max-width: 100%;
-    display: block; }
+  /* line 30, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_gallery.scss */
+  #video iframe,
+  #video object,
+  #video embed {
+    position: absolute;
+    top: 3rem;
+    left: 2rem;
+    width: 90%;
+    height: 90%; }
 
-  /* line 54, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_about.scss */
-  #aboutTag {
+  /* line 41, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/SASSstylesheets/_media1281_gallery.scss */
+  #galleryTag {
     clear: both;
     margin: auto;
     width: 95%;
     text-align: center;
     padding-top: 3.5rem;
     padding-bottom: 2rem;
-    color: #ec31b1;
+    color: #f7931e;
     font-size: 2rem; } }
