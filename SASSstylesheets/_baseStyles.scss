@@ -158,12 +158,45 @@ background: $brown;
 #toggleButton{
   display: block;
   font-family: $aliquamRegular;
+  font-size: 1.2rem;
   color: $white;
   letter-spacing: 0.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   background-color: $blue;
   border: $h3ClassesBorder;
-  @include roundedCorners;
+  @include formCorners;
+  @include boxShadow;
 }
+
+//*******************CONTENT - FORM***************
+
+  input[type="email"], 
+  input[type="text"],
+  textarea{
+      border: $inputBorder;
+      @include formCorners;
+  }
+    
+.required
+    {
+        font-size: $fontSize * 0.8;
+        color: $purple;
+    }
+    
+input[type="submit"]{
+  display: block;
+  font-family: $aliquamRegular;
+  font-size: 1.2rem;
+  color: $white;
+  letter-spacing: 0.1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: $purple;
+  @include formCorners;
+  @include boxShadow;
+}
+
 
 //*****************FOOTER******************
 

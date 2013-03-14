@@ -1,0 +1,70 @@
+ /* Target landscape smartphones, portrait tablets, narrow desktops
+ /* ===== == = === 481 px - 800 px === = == ===== */ 
+
+//@media screen and (min-width: 30.1em) and (max-width: 50em) 
+  
+    
+//*******************CONTACT ME PAGE***************
+ 
+#contact{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background: $white;
+        @include roundedCorners;
+        
+        
+        h1{
+            display: block;
+            width: 95%;
+            margin-left: 5%;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: $h1Contact;
+        }
+    }
+    
+    fieldset{
+        width: 90%;
+        margin: auto;
+        border: none;
+    }
+     
+    input[type="email"], 
+    input[type="text"],textarea{
+        width: 100%;
+        height: 2.5rem;
+        margin-bottom: 0.6rem;
+        background-color: $input;
+        border: 1px solid $input;
+    }
+    
+    textarea{
+        height: 5rem;
+    }
+    
+    .required
+    {
+        width: 90%;
+        margin-left: 5%;
+    }
+        
+    input[type="submit"]{
+        width: 90%;
+        margin: 0 auto;
+    }
+     
+    
+    //*******************TAG LINE*************************
+
+    #contactTag{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: $purple;
+      font-size: 1.5rem;
+    }
