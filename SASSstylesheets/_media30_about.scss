@@ -3,31 +3,24 @@
     
 
     //*******************ABOUT PAGE CONTENT***************
-     
+
+    .aboutHeading{
+      display: block;
+      width: 95%;
+      margin-left: 5%;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: $h1About;
+    } 
+    
     #about{
-        width: 90%;
+        width: 100%;
         height: 100%;
-        margin: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        background: $white;
-        @include roundedCorners;
-        
-        
-        h1{
-            display: block;
-            width: 95%;
-            margin-left: 5%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1About;
-        }
+        margin: auto; 
     }
     
      .info{
-        width: 90%;
-        margin: auto;
-        margin-top: 2rem;
+        width: 100%;
         margin-bottom: 2rem;
     }
     

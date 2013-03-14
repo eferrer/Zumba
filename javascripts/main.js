@@ -33,7 +33,8 @@
                         } else if( width >= 480 && width <= 800 ) {
                             // code for mobile landscape
                             
-                            $("h2").insertAfter("#content p:last-child");
+                            // $("h2").insertAfter("#content p:last-child");
+                            $("h2").insertAfter(".zumbaCom");
                             $("h2").insertAfter("#about p:last-child");
                             $("h2").insertAfter("#studentInfo p:last-child");
                             $("h2").insertAfter(".needs li:last-child");
