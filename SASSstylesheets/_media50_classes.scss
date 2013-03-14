@@ -98,15 +98,15 @@ font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-#toggleButton{
-  display: block;
-  font-family: $aliquamRegular;
-  color: $white;
-  letter-spacing: 0.1rem;
-  background-color: $blue;
-  border: $h3ClassesBorder;
-  @include roundedCorners;
-}
+// #toggleButton{
+//   display: block;
+//   font-family: $aliquamRegular;
+//   color: $white;
+//   letter-spacing: 0.1rem;
+//   background-color: $blue;
+//   border: $h3ClassesBorder;
+//   @include roundedCorners;
+// }
 
 //*******************PRICE SCHEDULE CONTENT***************   
 .classPrice{
