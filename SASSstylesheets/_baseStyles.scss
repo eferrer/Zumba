@@ -83,9 +83,14 @@ background: $brown;
 
     a{
       color: $white;
+      font-variant: small-caps;
       background-color: $brown;
       outline: 3px solid $brown;
       outline-offset: -19px;
+      transition: all 0.6s linear; 
+      -moz-transition: all 0.6s linear; /* Firefox 4 */ 
+      -webkit-transition: all 0.6s linear; /* Safari and Chrome */ 
+      -o-transition: all 0.6s linear; /* Opera */
     }
   }
   
@@ -95,7 +100,6 @@ background: $brown;
     }
 
     a:hover{
-      //border: 20px solid $paleGreen;
       background-color: $green;
     }
   }
@@ -106,7 +110,6 @@ background: $brown;
   }
 
   a:hover{
-      //border: 20px solid $palePink;
       background-color: $pink;
     }
   }
@@ -144,6 +147,7 @@ background: $brown;
   li a:hover,
   li a:focus,
   li a:active {
+    font-variant: small-caps;
     color: $brown;
     outline: 5px solid $brown;
     outline-offset: -19px;
