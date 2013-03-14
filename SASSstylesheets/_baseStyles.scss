@@ -83,7 +83,6 @@ background: $brown;
 
     a{
       color: $white;
-      font-variant: small-caps;
       background-color: $brown;
       outline: 3px solid $brown;
       outline-offset: -19px;
@@ -147,21 +146,24 @@ background: $brown;
   li a:hover,
   li a:focus,
   li a:active {
-    font-variant: small-caps;
+    font-weight: bolder;
     color: $brown;
     outline: 5px solid $brown;
     outline-offset: -19px;
   }
 }
     
-//*******************CONTENT***************
+//*******************CONTENT - TOGGLE BUTTON***************
 
-// #content{
-//   font-family: $aliquamRegular;
-//   letter-spacing: 0.1rem;
-//   text-align: justify;
-//   height: 100%;
-// }
+#toggleButton{
+  display: block;
+  font-family: $aliquamRegular;
+  color: $white;
+  letter-spacing: 0.1rem;
+  background-color: $blue;
+  border: $h3ClassesBorder;
+  @include roundedCorners;
+}
 
 //*****************FOOTER******************
 
