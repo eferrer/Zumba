@@ -87,17 +87,17 @@
             // when the "show" button is clicked, show the disclaimer
             // hide the disclaimer when "hide" button is clicked
             
-            $('#details').hide();
+            $('.details').hide();
             
-            // $('#toggleButton').click(function(){
-            //     $('#details').toggle();
+            $('#toggleButton').click(function(){
+                $('.details').toggle();
                 
-            //   if($('#details').is(':visible')){
-            //     $(this).attr('value', 'Hide Directions');
-            //     }else{
-            //         $(this).attr('value', 'View Directions');
-            //     }
+              if($('.details').is(':visible')){
+                $(this).attr('value', 'Hide Details');
+                }else{
+                    $(this).attr('value', 'View Details');
+                }
                 
-            // }); //eof disclaimer toggle
+            }); //eof disclaimer toggle
 
 }); // eof ready
