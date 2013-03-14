@@ -4,25 +4,22 @@
     
 //*******************CLASSES PAGE CONTENT***************
 
+.classHeading{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: $h1Classes;
+    }
+    
 #classSchedule,
 #priceSchedule,
 #studentInfo{
-  
-  h1{
-      display: block;
-      width: 95%;
-      margin-left: 5%;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-      border-bottom: $h1Classes;
-  }
-}
-
-.info{
-  width: 90%;
-  margin: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    //background-color: blue;
 }
 
 //*******************TAG LINE*************************
@@ -40,12 +37,11 @@ font-size: 1.5rem;
 //*******************CLASS SCHEDULE CONTENT***************
 
 .classDetails{
-    width: 90%;
-    margin: auto;
-    margin-bottom: 2rem;
-    padding-bottom: 0rem;
+    width: 100%;
     height: 100%;
-    //background-color: blue;
+    margin: auto;
+    margin-bottom: 5rem;
+    overflow: hidden;
 }
 
 #classTimes{
@@ -83,9 +79,8 @@ font-size: 1.5rem;
 
 .directions{
     clear: both;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 2rem;
     border-bottom: $classTimesBorder;
@@ -100,22 +95,11 @@ font-size: 1.5rem;
     margin-bottom: 2rem;
 }
 
-// #toggleButton{
-//   display: block;
-//   font-family: $aliquamRegular;
-//   color: $white;
-//   letter-spacing: 0.1rem;
-//   background-color: $blue;
-//   border: $h3ClassesBorder;
-//   @include roundedCorners;
-// }
-
 //*******************PRICE SCHEDULE CONTENT***************   
+
 .classPrice{
-  width: 90%;
+  width: 100%;
   margin: auto;
-  //margin-top: 2rem;
-  //margin-bottom: 2rem;
 }
 
 .classPrice h3{
@@ -135,14 +119,20 @@ font-size: 1.5rem;
 #studentInfo h3{
   display: inline;
   margin-top: 2rem;
-  margin-left: 5%;
   padding-bottom: 0.8rem;
   border-bottom: $h3ClassesBorder;
 }
 
+.studentInfo{
+    width: 100%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 .needs{
   //background-color: blue;
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin-top: 2rem;
   

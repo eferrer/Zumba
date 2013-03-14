@@ -1,14 +1,22 @@
- /* Target landscape smartphones, portrait tablets, narrow desktops
- /* ===== == = === 481 px - 800 px === = == ===== */ 
-
-//@media screen and (min-width: 30.1em) and (max-width: 50em) 
-  
-    
-//*******************CONTACT ME PAGE***************
+/* ===== == = === 801 px - 1280 px === = == ===== */ 
  
+//@media screen and (min-width: 80.1em)
+   
+//*******************CONTACT ME PAGE***************
+
+#mainContainer{
+  background-image: url("../assets/images/whiteWall.png");
+  max-width: 80%;
+  height: 100%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  @include roundedCorners;
+  border: $borderContainer;
+}
+    
 .contactHeading{
   display: block;
-  width: 95%;
+  width: 90%;
   margin-left: 5%;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -24,9 +32,11 @@
 #form{
     width: 70%;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
     padding-bottom: 1rem;
 }  
+
     fieldset{
         width: 90%;
         margin: auto;

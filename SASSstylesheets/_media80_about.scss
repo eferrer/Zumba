@@ -4,15 +4,13 @@
   
     //*******************ABOUT PAGE CONTENT***************
     
-    h1{
+    .aboutHeading{
       display: block;
       width: 90%;
-      margin-top: 6rem;
       margin-left: 5%;
       padding-top: 1rem;
       padding-bottom: 1rem;
       border-bottom: $h1About;
-      //background-color: green; 
     }
      
     #about{
@@ -20,7 +18,6 @@
         width: 55%;
         margin-left: 5%;
         margin-bottom: 1rem;
-
     }
     
      .info{

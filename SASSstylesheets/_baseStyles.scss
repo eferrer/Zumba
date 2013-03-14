@@ -11,7 +11,9 @@ body{
 }
 
 #wrapper{
-  
+  height: 100%;
+  background-color: $brown;
+  @include stripes;
 }
 
 #mainContainer{
@@ -171,11 +173,17 @@ background: $brown;
 
 //*******************CONTENT - FORM***************
 
-  input[type="email"], 
-  input[type="text"],
-  textarea{
-      border: $inputBorder;
-      @include formCorners;
+#form{
+    @include roundedCorners;
+    background-color: $input;
+} 
+
+input[type="email"], 
+input[type="text"],
+textarea{
+  background-color: $white;
+  border: $inputBorder;
+  @include formCorners;
   }
     
 .required
@@ -192,7 +200,7 @@ input[type="submit"]{
   letter-spacing: 0.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: $purple;
+  background-color: $text;
   @include formCorners;
   @include boxShadow;
 }

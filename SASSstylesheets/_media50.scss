@@ -70,13 +70,14 @@
     #mainContainer{
         width: 90%;
         height: 100%;
+        margin: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
         background: $white;
         @include roundedCorners;
     }
     
-    h1{
+    .homeHeading{
         display: block;
         width: 95%;
         margin-left: 5%;
@@ -96,7 +97,6 @@
         margin-bottom: 2rem;
     }
   
-    
     #viewClasses{
         display: none;
     }
@@ -112,7 +112,7 @@
     
     .zumbaCom{
         display: block;
-        background-image: url("../assets/images/zumba526.jpg");
+        background-image: url("../assets/images/zumbaLogo.jpg");
         background-repeat: no-repeat;
         width: 526px;
         max-width: 100%;

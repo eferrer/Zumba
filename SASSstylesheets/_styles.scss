@@ -30,7 +30,7 @@ $input: rgba(153, 153, 153, 0.1);
 @mixin stripes{
     background-size:10px 10px;
     // background-color: rgba(159, 164, 166, 0.15);
-    background-color: rgba(20, 8, 10, 0.1);
+    background-color: rgba(20, 8, 10, 0.9);
     background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
     background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
     background-image: -mslinear-gradient(0deg, rgba(255, 255, 255, .1) 50%, transparent 50%, transparent);
@@ -103,7 +103,7 @@ $fineGreenBorder: 1px solid $green;
 $borderContainer: 60px solid $white;
 $classTimesBorder: 1px dotted $blue;
 $h3ClassesBorder: 1px solid $blue;
-$inputBorder: 1px solid $text;
+$inputBorder: 1px solid $input;
 
 //***************************************
 

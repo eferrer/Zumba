@@ -5,55 +5,55 @@
     
 //*******************CONTACT ME PAGE***************
  
+.contactHeading{
+  display: block;
+  width: 95%;
+  margin-left: 5%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: $h1Contact;
+}
+        
 #contact{
-        width: 90%;
-        height: 100%;
-        margin: auto;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        background: $white;
-        @include roundedCorners;
-        
-        
-        h1{
-            display: block;
-            width: 95%;
-            margin-left: 5%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1Contact;
-        }
-    }
+    width: 90%;
+    height: 100%;
+    margin: auto; 
+}
     
-    fieldset{
-        width: 90%;
-        margin: auto;
-        border: none;
-    }
-     
-    input[type="email"], 
-    input[type="text"],textarea{
-        width: 100%;
-        height: 2.5rem;
-        margin-bottom: 0.6rem;
-        background-color: $input;
-        border: 1px solid $input;
-    }
+#form{
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+} 
+
+fieldset{
+    width: 90%;
+    margin: auto;
+    border: none;
+}
+ 
+input[type="email"], 
+input[type="text"],textarea{
+    width: 100%;
+    height: 2.5rem;
+    margin-bottom: 0.6rem;
+}
+
+textarea{
+    height: 5rem;
+}
+
+.required
+{
+    width: 90%;
+    margin-left: 5%;
+}
     
-    textarea{
-        height: 5rem;
-    }
-    
-    .required
-    {
-        width: 90%;
-        margin-left: 5%;
-    }
-        
-    input[type="submit"]{
-        width: 90%;
-        margin: 0 auto;
-    }
+input[type="submit"]{
+    width: 90%;
+    margin: 0 auto;
+}
      
     
     //*******************TAG LINE*************************

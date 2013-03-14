@@ -69,6 +69,7 @@
     #mainContainer{
         width: 90%;
         height: 100%;
+        margin: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
         background: $white;
@@ -85,13 +86,15 @@
     }
     
     #content{
-        width: 100%;
+        width: 90%;
         height: 100%;
-        margin: auto;    
+        margin: auto; 
+        //background-color: blue;   
     }
     
     .info{
         width: 100%;
+        margin: auto;
         margin-bottom: 2rem;
         //background-color: red;
     }
