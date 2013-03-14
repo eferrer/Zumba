@@ -7,7 +7,7 @@
     @import "_styles.scss";
     
     #wrapper{
-        @include stripes;
+        //@include stripes;
         padding-bottom: 1rem;
     }
     
@@ -18,28 +18,34 @@
     //*******************HOME PAGE MAIN IMAGE***************
      
     #mainImage{
-        display: none;
+        background-image: url("../assets/images/full/photo2.jpg");
+        background-repeat: no-repeat;
+        width: 800px;
+        max-width: 90%;
+        height: 600px;
+        margin: auto;
+        margin-top: 2rem;
     }
 
       //*******************HOME PAGE YOUTUBE VIDEO***************
 
-     #video{
-            position: relative;
-            padding-bottom: 56.25%;
-            padding-top: 30px;
-            height: 0;
-            overflow: hidden;
-      }
+     // #video{
+     //        position: relative;
+     //        padding-bottom: 56.25%;
+     //        padding-top: 30px;
+     //        height: 0;
+     //        overflow: hidden;
+     //  }
 
-      #video iframe,  
-      #video object,  
-      #video embed {
-            position: absolute;
-            top: 3rem;
-            left: 4rem;
-            width: 90%;
-            height: 90%;
-      }
+     //  #video iframe,  
+     //  #video object,  
+     //  #video embed {
+     //        position: absolute;
+     //        top: 3rem;
+     //        left: 4rem;
+     //        width: 90%;
+     //        height: 90%;
+     //  }
          
      
     //*******************NAVIGATION MENU***************
@@ -97,51 +103,55 @@
     //*******************HOME PAGE CONTENT***************
     
     #mainContainer{
-        background-image: url("../assets/images/whiteWall.png");
-        max-width: 72em;
-        margin-top: 5rem;
-        margin-bottom: 5rem;
-        @include roundedCorners;
-        border: $borderContainer;
+      background-image: url("../assets/images/whiteWall.png");
+      max-width: 80%;
+      height: 100%;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      @include roundedCorners;
+      border: $borderContainer;
     }
     
+    h1{
+          display: block;
+          width: 90%;
+          margin-top: 6rem;
+          margin-left: 5%;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-bottom: $h1Home;
+          //background-color: green; 
+    }
+      
     #content{
         float: left;
         width: 55%;
-        margin-left: 4%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        
-        h1{
-            display: block;
-            width: 95%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1Home;
-        }
+        margin-left: 5%;
+        margin-bottom: 1rem; 
+        //background-color: blue; 
     }
-    
-     .info{
+  
+   .info{
         width: 90%;
         margin: auto;
-        margin-top: 2rem;
+        //margin-top: 1rem;
         margin-bottom: 2rem;
+        //background-color: red;
     }
     
     //*******************HOME PAGE RIGHT SIDE CONTENT***************
 
     #rightContent{
       display: block;
-      float: right;
-      width: 30%;
-      margin-top: 1rem;
-      margin-left: 3%;
-      margin-right: 6%;
-      padding-top: 2rem;
+        float: right;
+        width: 30%;
+        margin-top: 2rem;
+        margin-left: 3%;
+        margin-right: 5%;
+        //background-color: blue;
     }
     
     #viewClasses{
-      margin-top: 0.5rem;
       width: 100%;
       height: 100%;
     }

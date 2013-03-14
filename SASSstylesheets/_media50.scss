@@ -7,6 +7,11 @@
     
      @import "_styles.scss";
     
+     #wrapper{
+  height: 100%;
+  padding-bottom: 1rem;
+}
+
     #logo{
         
     }
@@ -14,10 +19,15 @@
     //*******************HOME PAGE MAIN IMAGE***************
      
     #mainImage{
-        display: none;
+        background-image: url("../assets/images/zumba526.jpg");
+        background-repeat: no-repeat;
+        width: 370px;
+        max-width: 90%;
+        height: 15rem;
+        margin: auto;
+        margin-top: 2rem;
     }
     
-         
     //*******************NAVIGATION MENU***************
     
     #navBar{
@@ -58,35 +68,31 @@
     //*******************HOME PAGE CONTENT***************
     
     #mainContainer{
-        width: 100%;
-        height: 100%;
-        @include stripes;
-    }
-    
-    #content{
         width: 90%;
         height: 100%;
-        margin: auto;
-        margin-top: 6rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
         background: $white;
         @include roundedCorners;
-        
-        
-        h1{
-            display: block;
-            width: 95%;
-            margin-left: 5%;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-bottom: $h1Home;
-        }
     }
     
-    .info{
-        width: 90%;
+    h1{
+        display: block;
+        width: 95%;
+        margin-left: 5%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: $h1Home;
+    }
+    
+    #content{
+        width: 100%;
+        height: 100%;
         margin: auto;
-        margin-top: 2rem;
+    }
+
+    .info{
+        width: 100%;
         margin-bottom: 2rem;
     }
   
@@ -163,5 +169,6 @@
     @import "_media50_about.scss";
     @import "_media50_classes.scss";
     @import "_media50_gallery.scss";
+    @import "_media50_contact.scss";
 
 } // end of media query 50em
