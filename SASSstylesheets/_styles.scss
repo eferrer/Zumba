@@ -50,6 +50,12 @@ $input: rgba(153, 153, 153, 0.1);
     border-radius: 10px;
 }
 
+@mixin promoCorners{
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    border-radius: 90px;
+}
+
 @mixin boxShadow{
     -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
     -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);

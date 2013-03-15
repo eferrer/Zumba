@@ -92,12 +92,12 @@
       p{
         font-size: 2.8rem;
         line-height: 3rem;
-        color: $white;
+        //color: $white;
       }
     }
     
     .zumbaIs{
-      color: $green;
+      //color: $green;
     }
     
     //*******************HOME PAGE CONTENT***************
@@ -151,35 +151,35 @@
         //background-color: blue;
     }
     
-    #viewClasses{
-      width: 100%;
-      height: 100%;
-    }
+    // #viewClasses{
+    //   width: 100%;
+    //   height: 100%;
+    // }
     
    .viewClassText{
     
       a{
-        display:block;
-        max-width: 90%;
-        height: 100%;
-        padding: 8px 0;
-        font-family: $kaushan;
+        // display:block;
+        // max-width: 90%;
+        // height: 100%;
+        // padding: 8px 0;
+        // font-family: $kaushan;
         font-size: 2rem;
-        font-weight: bolder;
-        text-align: center;
-        color: $brown;
-        background-color: $green;
-        @include roundedCorners;
-        border: 30px solid $brown;
-        @include boxShadow;
-        outline: 2px solid $green;
-        outline-offset: -25px;
+        // font-weight: bolder;
+        // text-align: center;
+        // color: $brown;
+        // background-color: $green;
+        // @include roundedCorners;
+        // border: 30px solid $brown;
+        // @include boxShadow;
+        // outline: 2px solid $green;
+        // outline-offset: -25px;
       }
 
-      a:hover{
-        color: $green;
-        background-color: $brown;
-      }
+      // a:hover{
+      //   color: $green;
+      //   background-color: $brown;
+      // }
     }
     
     #zumbaContainer{

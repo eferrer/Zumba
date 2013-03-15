@@ -154,7 +154,80 @@ background: $brown;
     outline-offset: -19px;
   }
 }
+
+ //*******************DANCE TYPES*************************
+
+    #danceTypes{
+      
+      p{
+        color: $white;
+      }
+    }
     
+    .zumbaIs{
+      color: $green;
+    }
+    
+//************************PROMO BUTTON********************
+
+
+.promo{
+  display: block;
+  width: 10rem;
+  //max-width: 100%;
+  height: 10rem;
+ 
+  text-align: center;
+  
+  //@include promoCorners;
+  border-radius :50%;
+
+  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+  background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
+  background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
+
+  animation-name: spin;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  p{
+
+  }
+}
+
+//*******************VIEW CLASSES LINK***************
+
+#viewClasses{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .viewClassText{
+    
+      a{
+        display:block;
+        max-width: 90%;
+        height: 100%;
+        padding: 8px 0;
+        font-family: $kaushan;
+        font-size: 1.9rem;
+        font-weight: bolder;
+        text-align: center;
+        color: $brown;
+        background-color: $green;
+        @include roundedCorners;
+        border: 30px solid $brown;
+        @include boxShadow;
+        outline: 2px solid $green;
+        outline-offset: -25px;
+      }
+
+      a:hover{
+        color: $green;
+        background-color: $brown;
+      }
+    }
+
 //*******************CONTENT - TOGGLE BUTTON***************
 
 #toggleButton{
