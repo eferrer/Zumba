@@ -35,7 +35,6 @@
                             
                             // $("h2").insertAfter("#content p:last-child");
                             $("h2").insertAfter(".zumbaCom");
-                            $("h2").insertAfter("#about p:last-child");
                             $("h2").insertAfter("#studentInfo p:last-child");
                             $("h2").insertAfter(".needs li:last-child");
                             $("h2").insertAfter("#video");
@@ -44,7 +43,6 @@
                             // code for mobile portrait
                             
                             $("h2").insertAfter("#content p:last-child");
-                            $("h2").insertAfter("#about p:last-child");
                             $("h2").insertAfter("#studentInfo p:last-child");
                             $("h2").insertAfter(".needs li:last-child");
                             $("h2").insertAfter("#video");
