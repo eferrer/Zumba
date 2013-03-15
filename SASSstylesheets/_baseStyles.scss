@@ -150,7 +150,7 @@ background: $brown;
   li a:active {
     font-weight: bolder;
     color: $brown;
-    outline: 5px solid $brown;
+    outline: $brown5;
     outline-offset: -19px;
   }
 }
@@ -173,25 +173,23 @@ background: $brown;
 
 .promo{
   display: block;
-  width: 10rem;
-  //max-width: 100%;
-  height: 10rem;
- 
+  margin: auto;
+  height: 100%;
+  background-color: $brown;
   text-align: center;
-  
-  //@include promoCorners;
-  border-radius :50%;
-
-  background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
-  background-image: -webkit-radial-gradient(45px 45px, circle cover, yellow, orange);
-  background-image: radial-gradient(45px 45px 45deg, circle cover, yellow 0%, orange 100%, red 95%);
-
-  animation-name: spin;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  @include promoCorners;
+  border: $orange30;
+  @include boxShadow;
+  // outline: $orange2;
+  // outline-offset: -55px;
+ 
   p{
-
+    color: $white;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -216,9 +214,9 @@ background: $brown;
         color: $brown;
         background-color: $green;
         @include roundedCorners;
-        border: 30px solid $brown;
+        border: $brown30;
         @include boxShadow;
-        outline: 2px solid $green;
+        outline: $green2;
         outline-offset: -25px;
       }
 

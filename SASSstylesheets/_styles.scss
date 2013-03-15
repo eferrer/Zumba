@@ -70,30 +70,6 @@ $input: rgba(153, 153, 153, 0.1);
     box-shadow: 8px 9px 20px rgb(122, 123, 84);
     }
     
-@mixin menuGradient{
-    background: #dfdfd3; /* Old browsers */
-background: -moz-linear-gradient(top,  #dfdfd3 0%, #d1d0bf 50%, #c3c1ab 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfd3), color-stop(50%,#d1d0bf), color-stop(100%,#c3c1ab)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfd3', endColorstr='#c3c1ab',GradientType=0 ); /* IE6-9 */
-}
-
-@mixin subMenuGradient{
-    background: #dfdfd3; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmZGZkMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iI2QxZDBiZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjM2MxYWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  #dfdfd3 0%, #d1d0bf 50%, #c3c1ab 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dfdfd3), color-stop(50%,#d1d0bf), color-stop(100%,#c3c1ab)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #dfdfd3 0%,#d1d0bf 50%,#c3c1ab 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfd3', endColorstr='#c3c1ab',GradientType=0 ); /* IE6-8 */
-}
-    
 //***************************************
 
 // BORDERS AND OUTLINES
@@ -105,11 +81,15 @@ $h1About: 5px solid $pink;
 $h1Classes: 5px solid $blue;
 $h1Gallery: 5px solid $orange;
 $h1Contact: 5px solid $purple;
-$fineGreenBorder: 1px solid $green;
+$brown30: 30px solid $brown;
 $borderContainer: 60px solid $white;
 $classTimesBorder: 1px dotted $blue;
 $h3ClassesBorder: 1px solid $blue;
 $inputBorder: 1px solid $input;
+$green2: 2px solid $green;
+$orange2: 2px solid $orange;
+$orange30: 30px solid $orange;
+$brown5: 5px solid $brown;
 
 //***************************************
 
