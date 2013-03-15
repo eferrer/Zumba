@@ -51,10 +51,10 @@
         
         li a{
             display: block;
-            font-size: 1.3rem;
-            height: 3rem;
-            line-height: 3rem;
-            margin-bottom: 2rem;
+            font-size: 1rem;
+            height: 2rem;
+            line-height: 2rem;
+            margin-bottom: 1rem;
             @include roundedCorners;
         }  
     } 
@@ -72,7 +72,7 @@
         height: 100%;
         margin: auto;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         background: $white;
         @include roundedCorners;
     }

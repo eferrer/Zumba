@@ -50,10 +50,10 @@
         
         li a{
             display: block;
-            font-size: 1.3rem;
-            height: 3rem;
-            line-height: 3rem;
-            margin-bottom: 2rem;
+            font-size: 1rem;
+            height: 2rem;
+            line-height: 2rem;
+            margin-bottom: 1rem;
             @include roundedCorners;
         }  
     }
@@ -71,7 +71,7 @@
         height: 100%;
         margin: auto;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         background: $white;
         @include roundedCorners;
     }
@@ -126,6 +126,7 @@
     #footerLinks{
         margin-top: -1rem;
         
+        //background-color: red;
         li{
             display: block !important;
             padding-top: 1rem;
@@ -141,6 +142,15 @@
         }   
     }
     
+    //  .zinNetwork{
+    //   display: block;
+    //   width: 200px;
+    //   max-width: 100%;
+    //   height: 45px;
+    //   margin: auto;
+    //   //margin-top: 2rem;
+    // }
+
     #copyright{
         height: 4rem;
         margin-top: -1rem;
