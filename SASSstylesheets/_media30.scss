@@ -5,9 +5,9 @@
     @import "_styles.scss";
     
     #wrapper{
-  height: 100%;
-  padding-bottom: 0rem;
-}
+        height: 100%;
+        padding-bottom: 0rem;
+    }
     
     #logo{
         
@@ -30,19 +30,19 @@
     //*******************NAVIGATION MENU***************
     
     #navBar{
-      width: 100%;
-      height:100%;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
-      margin-top: 0.3rem;
-      margin-bottom: 0.3rem;
-      //background: $brown;
+        width: 100%;
+        height:100%;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+        //background: $brown;
       
-    #menu{
-        width: 90%;
-        margin: auto;
-        //background: red;
-    }
+        #menu{
+            width: 90%;
+            margin: auto;
+            //background: red;
+        }
     
         li{ 
             display: block !important;
@@ -61,7 +61,7 @@
     //*******************DANCE TYPES*************************
 
     #danceTypes{
-      display: none;
+        display: none;
     }
       
     //*******************HOME PAGE CONTENT***************
@@ -99,8 +99,7 @@
         //background-color: red;
     }
     
-    #viewClasses
-    {
+    #viewClasses{
         display: none;
     }
     
@@ -111,51 +110,52 @@
     //*******************TAG LINE*************************
 
      #homeTag{
-      width: 90%;
-      margin: auto;
-      text-align: center;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
-      color: $green;
-      font-size: 1.5rem;
-      //background-color: red;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: $green;
+        font-size: 1.5rem;
+        //background-color: red;
     }
 
     //*******************FOOTER*************************
     
     #footerLinks{
         margin-top: -1rem;
+        padding-top: 1rem;
         
-        //background-color: red;
         li{
-            display: block !important;
-            padding-top: 1rem;
-            line-height: 1.8rem;
-        }
-        
-        li:last-child{
-            padding-bottom: 1rem;
+            width: 10%;
+            height: 2.2rem;
+            margin-bottom: 2rem;
         }
         
         a{
-            font-size: 1.5rem;   
+            font-size: 2rem;
         }   
     }
     
-    //  .zinNetwork{
-    //   display: block;
-    //   width: 200px;
-    //   max-width: 100%;
-    //   height: 45px;
-    //   margin: auto;
-    //   //margin-top: 2rem;
-    // }
+    .zinNetwork{
+        display: block;
+        width: 200px;
+        max-width: 100%;
+        height: 45px;
+        margin: auto;
+        //margin-top: 2rem;
+    }
+    
+    .zinDate{
+        font-size: 0.8rem
+    }
 
     #copyright{
         height: 4rem;
         margin-top: -1rem;
         
         p{
+            font-size: 0.8rem;
             padding-top: 1rem;
         }
     }
