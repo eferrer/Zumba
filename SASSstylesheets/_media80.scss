@@ -75,10 +75,6 @@
       }
     }
     
-    .zumbaIs{
-      //color: $green;
-    }
-    
     //*******************HOME PAGE CONTENT***************
     
     #mainContainer{
@@ -87,7 +83,7 @@
       max-width: 100%;
       height: 100%;
       margin-top: 5rem;
-      margin-bottom: 5rem;
+      margin-bottom: 0rem;
       @include roundedCorners;
       border: $borderContainer;
     }
@@ -146,27 +142,8 @@
     .viewClassText{
     
       a{
-        // display:block;
-        // max-width: 90%;
-        // height: 100%;
-        // padding: 8px 0;
-        // font-family: $kaushan;
         font-size: 1.9rem;
-        // font-weight: bolder;
-        // text-align: center;
-        // color: $brown;
-        // background-color: $green;
-        // @include roundedCorners;
-        // border: 30px solid $brown;
-        // @include boxShadow;
-        // outline: 2px solid $green;
-        // outline-offset: -25px;
       }
-
-      // a:hover{
-      //   color: $green;
-      //   background-color: $brown;
-      // }
     }
     
     #zumbaContainer{
@@ -201,32 +178,77 @@
     //*******************FOOTER*************************
     
     footer{
-        clear: both;
         margin-top: -1rem;
+        padding-top: 1rem;  
     }
     
-    #footerLinks{
+    .zin{
+      float: left;
+      width: 30%;
+      margin-left: 20%;
+    }
+    
+    .atomic{
+      float: right;
+      width: 30%;
+      margin-right: 20%;
+    }
+    
+    .zinNetwork{
+        display: block;
+        width: 150px;
+        max-width: 100%;
+        height: 53px;
+        margin: auto;
+    }
+    
+    .zinDate{
+        font-size: 0.8rem
+    }
+    
+    .zumbatomic{
+      
+        display: block;
+        width: 192px;
+        max-width: 100%;
+        height: 47px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+    .social{
+      clear: both;
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+        border-top: $orange2;
         
         li{
-          padding-top: 2rem;
-          padding-bottom: 2rem;
-          width: 30%;
+            display: inline-block;
+            width: 30%;
+            height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
         }
-
+        
         a{
-          font-size: 1.8rem;
+            font-size: 2rem;
         }
     }
     
+    .text{
+      font-size: 1rem;
+    }
+
     #copyright{
         height: 4rem;
-        margin-top: -1.5rem;
+        margin-top: -1rem;
         
         p{
-          font-size: 1.3rem;
-            padding-top: 1.5rem;
+            font-size: 0.8rem;
+            padding-top: 1rem;
         }
-      }
+    }
     
     //*******************HOME PAGE SLIDESHOW***************
     // Source: http://http://responsive-slides.viljamis.com/ v1.53 by @viljamis
