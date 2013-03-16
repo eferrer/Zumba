@@ -58,15 +58,15 @@
       margin-bottom: 0.3rem;
       
       
-      #menu{
-          width: 80em;
-          margin: auto;
-      }
-    
-      li{ 
-          width: 18%;
-          margin-right: 2%;
-          
+    #menu{
+        width: 80em;
+        margin: auto;
+    }
+  
+    li{ 
+        width: 18%;
+        margin-right: 2%;
+        
         a{
             display: block;
             font-size: 1.5rem;
@@ -75,52 +75,52 @@
             margin-bottom: 2rem;
             @include roundedCorners;  
         }  
-      }
+    }
 
-      li:last-child{
-        margin-right: 0%;
-      }
+        li:last-child{
+          margin-right: 0%;
+        }
     } 
 
     //*******************DANCE TYPES*************************
 
     #danceTypes{
-      max-width: 80em;
-      margin: auto;
-      margin-top: 3rem;
-      
-      p{
-        font-size: 2.8rem;
-        line-height: 3rem;
-        //color: $white;
-      }
+        max-width: 80em;
+        margin: auto;
+        margin-top: 3rem;
+        
+        p{
+          font-size: 2.8rem;
+          line-height: 3rem;
+          //color: $white;
+        }
     }
     
     .zumbaIs{
-      //color: $green;
+        //color: $green;
     }
     
     //*******************HOME PAGE CONTENT***************
     
     #mainContainer{
-      background-image: url("../assets/images/whiteWall.png");
-      max-width: 80%;
-      height: 100%;
-      margin-top: 5rem;
-      margin-bottom: 5rem;
-      @include roundedCorners;
-      border: $borderContainer;
+        background-image: url("../assets/images/whiteWall.png");
+        max-width: 80%;
+        height: 100%;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+        @include roundedCorners;
+        border: $borderContainer;
     }
     
     .homeHeading{
-          display: block;
-          width: 90%;
-          margin-top: 6rem;
-          margin-left: 5%;
-          padding-top: 1rem;
-          padding-bottom: 1rem;
-          border-bottom: $h1Home;
-          //background-color: green; 
+        display: block;
+        width: 90%;
+        margin-top: 6rem;
+        margin-left: 5%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: $h1Home;
+        //background-color: green; 
     }
       
     #content{
@@ -142,7 +142,7 @@
     //*******************HOME PAGE RIGHT SIDE CONTENT***************
 
     #rightContent{
-      display: block;
+        display: block;
         float: right;
         width: 30%;
         margin-top: 2rem;
@@ -150,11 +150,6 @@
         margin-right: 5%;
         //background-color: blue;
     }
-    
-    // #viewClasses{
-    //   width: 100%;
-    //   height: 100%;
-    // }
     
    .viewClassText{
     
@@ -164,7 +159,7 @@
         // height: 100%;
         // padding: 8px 0;
         // font-family: $kaushan;
-        font-size: 2rem;
+            font-size: 2rem;
         // font-weight: bolder;
         // text-align: center;
         // color: $brown;
@@ -175,17 +170,12 @@
         // outline: 2px solid $green;
         // outline-offset: -25px;
       }
-
-      // a:hover{
-      //   color: $green;
-      //   background-color: $brown;
-      // }
     }
     
     #zumbaContainer{
-      width: 100%;
-      height: 100%;
-      margin-top: 3rem;
+        width: 100%;
+        height: 100%;
+        margin-top: 3rem;
     }
     
     .zumbaCom{
@@ -200,54 +190,100 @@
 
     //*******************TAG LINE*************************
 
-      #homeTag{
-      clear: both;
-      margin: auto;
-      width: 95%;
-      text-align: center;
-      padding-top: 3.5rem;
-      padding-bottom: 2rem;
-      color: $green;
-      font-size: 2rem;
+    #homeTag{
+        clear: both;
+        margin: auto;
+        width: 95%;
+        text-align: center;
+        padding-top: 3.5rem;
+        padding-bottom: 2rem;
+        color: $green;
+        font-size: 2rem;
     }
 
     //*******************FOOTER*************************
     
     footer{
-        clear: both;
         margin-top: -1rem;
+        padding-top: 1rem;  
     }
     
-     #footerLinks{
+    .zin{
+      float: left;
+      width: 20%;
+      margin-left: 30%;
+    }
+    
+    .atomic{
+      float: right;
+      width: 20%;
+      margin-right: 30%;
+    }
+    
+    .zinNetwork{
+        display: block;
+        width: 150px;
+        max-width: 100%;
+        height: 53px;
+        margin: auto;
+    }
+    
+    .zinDate{
+        font-size: 0.8rem
+    }
+    
+    .zumbatomic{
+      
+        display: block;
+        width: 192px;
+        max-width: 100%;
+        height: 47px;
+        margin: auto;
+        margin-top: 1rem;
+    }
+    
+    .social{
+      clear: both;
+        width: 80%;
+        margin: auto;
+        margin-top: 2rem;
+        border-top: $orange2;
         
         li{
-          padding-top: 2rem;
-          padding-bottom: 2rem;
-          width: 30%;
+            display: inline-block;
+            width: 20%;
+            height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            //background-color: red;
         }
-
+        
         a{
-          font-size: 2rem;
+            font-size: 2rem;
         }
     }
     
+    .text{
+      font-size: 1rem;
+    }
+
     #copyright{
         height: 4rem;
-        margin-top: -1.5rem;
+        margin-top: -1rem;
         
         p{
-          font-size: 1.3rem;
-            padding-top: 1.5rem;
+            font-size: 0.8rem;
+            padding-top: 1rem;
         }
-      }
+    }
     
     //*******************HOME PAGE SLIDESHOW***************
     // Source: http://http://responsive-slides.viljamis.com/ v1.53 by @viljamis
     
-     #slideshow{
-      max-width: 50%;
-      margin-top: 2rem;
-      margin-right: 3rem;
+    #slideshow{
+        max-width: 50%;
+        margin-top: 2rem;
+        margin-right: 3rem;
     }
     
 
