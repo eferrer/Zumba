@@ -25,6 +25,8 @@
         margin-bottom: 2rem;
     }
     
+      
+    
       //*******************TAG LINE*************************
 
     #aboutTag{
@@ -35,6 +37,23 @@
       padding-bottom: 1rem;
       color: $pink;
       font-size: 1.5rem;
+    }
+    
+    //************************PROMO BUTTON********************
+
+     .promoAbout{
+      width: 65%;
+      margin: auto;
+      margin-bottom: 3rem;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgAbout{
+      color: $pink;
     }
     
     //*******************PHOTO*************************
