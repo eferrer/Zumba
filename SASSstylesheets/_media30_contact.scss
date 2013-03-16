@@ -55,6 +55,22 @@ input[type="submit"]{
     margin: 0 auto;
 }
      
+//************************PROMO BUTTON********************
+
+     .promoContact{
+     width: 65%;
+      margin: auto;
+      border: 25px solid $purple;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgContact{
+      color: $purple;
+    }
     
     //*******************TAG LINE*************************
 

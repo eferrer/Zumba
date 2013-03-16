@@ -25,23 +25,6 @@
         margin-bottom: 2rem;
     }
     
-      //************************PROMO BUTTON********************
-
-     .promoAbout{
-      width: 65%;
-      margin: auto;
-      border: 25px solid $pink;
-      
-      p{
-        font-size: 2rem;
-        line-height: 2rem;
-      }
-    }
-    
-    .prmsgAbout{
-      color: $pink;
-    }
-    
       //*******************TAG LINE*************************
 
     #aboutTag{
@@ -52,6 +35,30 @@
       padding-bottom: 1rem;
       color: $pink;
       font-size: 1.5rem;
+    }
+    
+     //************************PROMO BUTTON********************
+      
+      #promo{
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    
+     .promoAbout{
+      width: 65%;
+      margin: auto;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      border: 25px solid $pink;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgAbout{
+      color: $pink;
     }
     
     //*******************PHOTO*************************

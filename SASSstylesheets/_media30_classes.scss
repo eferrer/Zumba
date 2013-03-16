@@ -21,9 +21,21 @@
     height: 100%;
     margin: auto;
 }
+    
+//*******************TAG LINE*************************
+
+#classesTag{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: $blue;
+    font-size: 1.5rem;
+}
 
 //************************PROMO BUTTON********************
-
+    
     .promoClasses{
       width: 65%;
       margin: auto;
@@ -38,18 +50,6 @@
     .prmsgClasses{
       color: $blue;
     }
-    
-//*******************TAG LINE*************************
-
-#classesTag{
-    width: 90%;
-    margin: auto;
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    color: $blue;
-    font-size: 1.5rem;
-}
 
 //*******************CLASS SCHEDULE CONTENT***************
 

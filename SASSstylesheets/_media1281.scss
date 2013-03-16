@@ -8,7 +8,7 @@
     
     #wrapper{
         //@include stripes;
-        padding-bottom: 1rem;
+        //padding-bottom: 1rem;
     }
     
     #logo{
@@ -26,28 +26,7 @@
         margin: auto;
         margin-top: 2rem;
     }
-
-      //*******************HOME PAGE YOUTUBE VIDEO***************
-
-     // #video{
-     //        position: relative;
-     //        padding-bottom: 56.25%;
-     //        padding-top: 30px;
-     //        height: 0;
-     //        overflow: hidden;
-     //  }
-
-     //  #video iframe,  
-     //  #video object,  
-     //  #video embed {
-     //        position: absolute;
-     //        top: 3rem;
-     //        left: 4rem;
-     //        width: 90%;
-     //        height: 90%;
-     //  }
          
-     
     //*******************NAVIGATION MENU***************
     
     #navBar{
@@ -69,7 +48,7 @@
         
         a{
             display: block;
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             height: 3rem;
             line-height: 3rem;
             margin-bottom: 2rem;
@@ -106,8 +85,7 @@
         background-image: url("../assets/images/whiteWall.png");
         max-width: 80%;
         height: 100%;
-        margin-top: 5rem;
-        margin-bottom: 0rem;
+        margin-top: 3rem;
         @include roundedCorners;
         border: $borderContainer;
     }

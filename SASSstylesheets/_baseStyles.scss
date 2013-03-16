@@ -171,25 +171,26 @@ background: $brown;
 //************************PROMO BUTTON********************
 
 
-.promoAbout{
+#promo{
   display: block;
   margin: auto;
+  
   height: 100%;
   background-color: $brown;
   text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   @include roundedCorners;
-  border: 30px solid $pink;
   @include boxShadow;
   outline: 3px solid $brown;
-  outline-offset: -25px;
+  outline-offset: -20px;
  
   p{
     color: $white;
     display: block;
     margin-left: 5%;
     margin-right: 5%;
+    letter-spacing: 0.2rem;
   }
 }
 

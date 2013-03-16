@@ -24,9 +24,26 @@
         margin: auto;
         margin-bottom: 2rem;
     }
+    
+    //*******************TAG LINE*************************
 
-    //************************PROMO BUTTON********************
-
+    #aboutTag{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+      color: $pink;
+      font-size: 1.5rem;
+    }
+    
+     //************************PROMO BUTTON********************
+    
+    #promo{
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+    }
+    
     .promoAbout{
       width: 65%;
       margin: auto;
@@ -41,18 +58,6 @@
     .prmsgAbout{
       color: $pink;
       
-    }
-    
-    //*******************TAG LINE*************************
-
-    #aboutTag{
-      width: 90%;
-      margin: auto;
-      text-align: center;
-      padding-top: 2rem;
-      padding-bottom: 1rem;
-      color: $pink;
-      font-size: 1.5rem;
     }
     
     //*******************PHOTO*************************

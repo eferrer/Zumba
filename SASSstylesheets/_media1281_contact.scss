@@ -8,8 +8,8 @@
   background-image: url("../assets/images/whiteWall.png");
   max-width: 80%;
   height: 100%;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  //margin-top: 5rem;
+  //margin-bottom: 5rem;
   @include roundedCorners;
   border: $borderContainer;
 }
@@ -76,4 +76,21 @@
       padding-bottom: 1rem;
       color: $purple;
       font-size: 1.5rem;
+    }
+    
+        //************************PROMO BUTTON********************
+    
+     .promoContact{
+     width: 55%;
+      margin: auto;
+      border: 25px solid $purple;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgContact{
+      color: $purple;
     }
