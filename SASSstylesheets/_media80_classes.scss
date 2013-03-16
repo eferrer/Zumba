@@ -22,6 +22,24 @@
     //background-color: blue;
 }
 
+//************************PROMO BUTTON********************
+
+     .promoClasses{
+      width: 55%;
+      margin: auto;
+      margin-bottom: 3rem;
+      border: 25px solid $blue;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgClasses{
+      color: $blue;
+    }
+
 //*******************TAG LINE*************************
 
 #classesTag{

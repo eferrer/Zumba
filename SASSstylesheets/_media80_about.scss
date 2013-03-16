@@ -42,6 +42,24 @@
         display: block;
     }
     
+    //************************PROMO BUTTON********************
+
+     .promoAbout{
+      width: 55%;
+      margin: auto;
+      margin-bottom: 3rem;
+      border: 25px solid $pink;
+      
+      p{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+    }
+    
+    .prmsgAbout{
+      color: $pink;
+    }
+    
     //*******************TAG LINE*************************
 
     #aboutTag{
@@ -56,20 +74,5 @@
       //background-color: yellow;
     }
     
-      //************************PROMO BUTTON********************
-
-     .promoAbout{
-      width: 55%;
-      margin: auto;
-      margin-bottom: 3rem;
       
-      p{
-        font-size: 2rem;
-        line-height: 2rem;
-      }
-    }
-    
-    .prmsgAbout{
-      color: $pink;
-    }
     
