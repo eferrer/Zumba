@@ -154,38 +154,30 @@
    .viewClassText{
     
       a{
-        // display:block;
-        // max-width: 90%;
-        // height: 100%;
-        // padding: 8px 0;
-        // font-family: $kaushan;
-            font-size: 2rem;
-        // font-weight: bolder;
-        // text-align: center;
-        // color: $brown;
-        // background-color: $green;
-        // @include roundedCorners;
-        // border: 30px solid $brown;
-        // @include boxShadow;
-        // outline: 2px solid $green;
-        // outline-offset: -25px;
+        font-size: 2rem;
       }
     }
     
     #zumbaContainer{
-        width: 100%;
-        height: 100%;
-        margin-top: 3rem;
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      margin-top: 3rem;
+      //background-color: red;
     }
     
-    .zumbaCom{
+    .zumbaCom a{
         clear: both;
-        background-image: url("../assets/images/zumbaLogo.jpg");
+        background-image: url("../assets/images/full/zumba.png");
         background-repeat: no-repeat;
-        height: 250px;
+        width: 265px;
         max-width: 100%;
+        height: 284px;
         display: block;
         margin-top: 3rem;
+        margin: auto;
+        font-size: 0rem;
+        //outline: 1px solid yellow;
     }
 
     //*******************TAG LINE*************************

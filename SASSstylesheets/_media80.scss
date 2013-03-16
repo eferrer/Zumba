@@ -134,11 +134,6 @@
         //background-color: blue;
     }
     
-    // #viewClasses{
-    //     width: 100%;
-    //     height: 100%;
-    // }
-    
     .viewClassText{
     
       a{
@@ -149,17 +144,23 @@
     #zumbaContainer{
       width: 100%;
       height: 100%;
+      margin: auto;
       margin-top: 3rem;
+      //background-color: red;
     }
     
-    .zumbaCom{
+    .zumbaCom a{
         clear: both;
-        background-image: url("../assets/images/zumbaLogo.jpg");
+        background-image: url("../assets/images/full/zumba.png");
         background-repeat: no-repeat;
-        height: 250px;
+        width: 265px;
         max-width: 100%;
+        height: 284px;
         display: block;
         margin-top: 3rem;
+        margin: auto;
+        font-size: 0rem;
+        //outline: 1px solid yellow;
     }
 
     //*******************TAG LINE*************************
