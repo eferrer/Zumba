@@ -12,7 +12,12 @@
     }
     
     #logo{
-        
+         background-image: url("../assets/images/full/zumbaLogo1281.png");
+        background-repeat: no-repeat;
+        width: 1300px;
+        max-width: 100%;
+        height: 219px;
+        margin: auto;
     }
     
     //*******************HOME PAGE MAIN IMAGE***************
@@ -35,7 +40,6 @@
       padding-top: 2rem;
       margin-top: 0.3rem;
       margin-bottom: 0.3rem;
-      
       
     #menu{
         width: 80em;

@@ -27,6 +27,14 @@
     height: 100%;
     padding-bottom: 0rem; }
 
+  #logo {
+    background-image: url("../assets/images/full/zumbaLogo30.png");
+    background-repeat: no-repeat;
+    width: 250px;
+    max-width: 100%;
+    height: 42px;
+    margin: auto; }
+
   #mainImage {
     background-image: url("../assets/images/zumba526.jpg");
     background-repeat: no-repeat;
