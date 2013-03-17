@@ -391,6 +391,9 @@
     height: 100%;
     margin: auto; }
 
+  #mainContainer:last-child {
+    margin-bottom: 4rem; }
+
   #classesTag {
     width: 90%;
     margin: auto;

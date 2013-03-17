@@ -3879,6 +3879,9 @@ ul.icons li [class*=" icon-"] {
     height: 100%;
     margin: auto; }
 
+  #mainContainer:last-child {
+    margin-bottom: 4rem; }
+
   #classesTag {
     width: 90%;
     margin: auto;
@@ -4482,6 +4485,9 @@ ul.icons li [class*=" icon-"] {
     width: 90%;
     height: 100%;
     margin: auto; }
+
+  #mainContainer:last-child {
+    margin-bottom: 4rem; }
 
   #classesTag {
     width: 90%;
