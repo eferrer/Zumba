@@ -48,14 +48,14 @@
     margin-top: 0.3rem;
     margin-bottom: 0.3rem; }
     #navBar #menu {
-      width: 90%;
+      width: 95%;
       margin: auto; }
     #navBar li {
       width: 18%;
-      margin-right: 1.6%; }
+      margin-right: 1.5%; }
       #navBar li a {
         display: block;
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         height: 3rem;
         line-height: 3rem;
         margin-bottom: 2rem;
