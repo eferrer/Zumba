@@ -27,17 +27,17 @@
   #logo {
     background-image: url("../assets/images/full/zumbaLogo1281.png");
     background-repeat: no-repeat;
-    width: 1300px;
+    width: 1200px;
     max-width: 100%;
-    height: 219px;
+    height: 246px;
     margin: auto; }
 
   #mainImage {
-    background-image: url("../assets/images/full/photo2.jpg");
+    background-image: url("../assets/images/full/zumbaHome1281.jpg");
     background-repeat: no-repeat;
     width: 800px;
     max-width: 90%;
-    height: 600px;
+    height: 533px;
     margin: auto;
     margin-top: 2rem; }
 
@@ -339,10 +339,13 @@
 
   .selfPhoto {
     clear: both;
-    background-image: url("../assets/images/full/photo1.jpg");
+    background-image: url("../assets/images/full/self1281.jpg");
     background-repeat: no-repeat;
-    height: 200px;
+    width: 300px;
     max-width: 100%;
+    height: 450px;
+    margin: auto;
+    margin-top: -1rem;
     display: block; }
 
   #aboutTag {
