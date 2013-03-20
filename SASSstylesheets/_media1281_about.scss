@@ -22,7 +22,7 @@
     }
     
      .info{
-        width: 90%;
+        width: 100%;
         margin: auto;
         margin-bottom: 2rem;
     }
@@ -32,6 +32,7 @@
      #selfContainer{
       width: 100%;
       height: 100%;
+      margin-bottom: 2rem;
     }
     
     .selfPhoto{
@@ -44,6 +45,33 @@
         margin: auto;
         margin-top: -1rem;
         display: block;
+    }
+
+    //*******************TESTIMONIALS********************
+
+    #testimonials{
+      margin-top: 2rem;
+      clear: both;
+      width: 90%;
+      margin: auto;
+
+      ul{
+        width: 100%;
+        margin-top: 3rem;
+        //background-color: red;
+      }
+
+      li{
+        margin-bottom: 1rem;
+        color: $text;
+      }
+    }
+    
+    h4{
+      display: inline;
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: $h1About;
     }
     
      //*******************TAG LINE*************************

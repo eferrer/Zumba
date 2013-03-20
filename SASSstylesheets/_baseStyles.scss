@@ -36,6 +36,11 @@ h3{
   letter-spacing: 0rem;
 }
 
+h4{
+  font-family: $aliquamRegular;
+  color: $brown;
+}
+
 a{
   font-family: $aliquamRegular;
   letter-spacing: 0.1rem
@@ -166,6 +171,13 @@ background: $brown;
     
     .zumbaIs{
       color: $green;
+    }
+
+    //*************TESTIMONIALS REFERENCE LINK**************
+
+    .reference{
+      font-style: italic;
+      color: $pink;
     }
     
 //************************PROMO BUTTON********************

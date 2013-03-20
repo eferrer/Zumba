@@ -25,6 +25,29 @@
         margin-bottom: 2rem;
     }
     
+    //*******************TESTIMONIALS********************
+
+    #testimonials{
+      width: 90%;
+      margin: auto;
+
+      ul{
+        margin-top: 2rem;
+      }
+
+      li{
+        margin-bottom: 1rem;
+        color: $text;
+      }
+    }
+    
+    h4{
+      display: inline;
+      font-size: 1.2rem;
+      padding-bottom: 0.5rem;
+      border-bottom: $h1About;
+    }
+
     //*******************TAG LINE*************************
 
     #aboutTag{

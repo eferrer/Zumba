@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 80.1em) {
     
-    @import "_styles.scss";
+    //@import "_styles.scss";
     
     #wrapper{
         //@include stripes;
@@ -118,7 +118,7 @@
     }
   
    .info{
-        width: 90%;
+        width: 100%;
         margin: auto;
         //margin-top: 1rem;
         margin-bottom: 2rem;
