@@ -52,6 +52,7 @@
 
 /*  Font Awesome styles
     ------------------------------------------------------- */
+/* line 35, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 [class^="icon-"],
 [class*=" icon-"] {
   font-family: FontAwesome;
@@ -71,6 +72,7 @@
   margin-top: 0; }
 
 /* more sprites.less reset */
+/* line 66, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
 .nav-pills > .active > a > [class*=" icon-"],
@@ -86,6 +88,7 @@
 .dropdown-submenu:hover > a > [class*=" icon-"] {
   background-image: none; }
 
+/* line 70, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   text-decoration: inherit;
@@ -93,15 +96,18 @@
   speak: none; }
 
 /* makes sure icons active on rollover in links */
+/* line 77, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 a [class^="icon-"],
 a [class*=" icon-"] {
   display: inline-block; }
 
 /* makes the font 33% larger relative to the icon container */
+/* line 81, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-large:before {
   vertical-align: -10%;
   font-size: 1.3333333333333333em; }
 
+/* line 88, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn [class^="icon-"],
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
@@ -109,24 +115,28 @@ a [class*=" icon-"] {
   display: inline;
   /* keeps button heights with and without icons the same */ }
 
+/* line 96, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn [class^="icon-"].icon-large,
 .nav [class^="icon-"].icon-large,
 .btn [class*=" icon-"].icon-large,
 .nav [class*=" icon-"].icon-large {
   line-height: .9em; }
 
+/* line 102, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn [class^="icon-"].icon-spin,
 .nav [class^="icon-"].icon-spin,
 .btn [class*=" icon-"].icon-spin,
 .nav [class*=" icon-"].icon-spin {
   display: inline-block; }
 
+/* line 108, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .nav-tabs [class^="icon-"],
 .nav-pills [class^="icon-"],
 .nav-tabs [class*=" icon-"],
 .nav-pills [class*=" icon-"] {
   /* keeps button heights with and without icons the same */ }
 
+/* line 119, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .nav-tabs [class^="icon-"],
 .nav-pills [class^="icon-"],
 .nav-tabs [class*=" icon-"],
@@ -137,6 +147,7 @@ a [class*=" icon-"] {
 .nav-pills [class*=" icon-"].icon-large {
   line-height: .9em; }
 
+/* line 125, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 li [class^="icon-"],
 .nav li [class^="icon-"],
 li [class*=" icon-"],
@@ -145,6 +156,7 @@ li [class*=" icon-"],
   width: 1.25em;
   text-align: center; }
 
+/* line 133, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 li [class^="icon-"].icon-large,
 .nav li [class^="icon-"].icon-large,
 li [class*=" icon-"].icon-large,
@@ -152,17 +164,21 @@ li [class*=" icon-"].icon-large,
   /* increased font size for icon-large */
   width: 1.5625em; }
 
+/* line 138, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 ul.icons {
   list-style-type: none;
   text-indent: -0.75em; }
 
+/* line 143, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 ul.icons li [class^="icon-"],
 ul.icons li [class*=" icon-"] {
   width: .75em; }
 
+/* line 146, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-muted {
   color: #eeeeee; }
 
+/* line 149, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-border {
   border: solid 1px #eeeeee;
   padding: 0.2em 0.25em 0.15em;
@@ -170,81 +186,99 @@ ul.icons li [class*=" icon-"] {
   -moz-border-radius: 3px;
   border-radius: 3px; }
 
+/* line 156, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-2x {
   font-size: 2em; }
 
+/* line 159, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-2x.icon-border {
   border-width: 2px;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
 
+/* line 165, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-3x {
   font-size: 3em; }
 
+/* line 168, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-3x.icon-border {
   border-width: 3px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px; }
 
+/* line 174, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-4x {
   font-size: 4em; }
 
+/* line 177, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-4x.icon-border {
   border-width: 4px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px; }
 
+/* line 183, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .pull-right {
   float: right; }
 
+/* line 186, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .pull-left {
   float: left; }
 
+/* line 190, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 [class^="icon-"].pull-left,
 [class*=" icon-"].pull-left {
   margin-right: .3em; }
 
+/* line 194, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 [class^="icon-"].pull-right,
 [class*=" icon-"].pull-right {
   margin-left: .3em; }
 
+/* line 200, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn [class^="icon-"].pull-left.icon-2x,
 .btn [class*=" icon-"].pull-left.icon-2x,
 .btn [class^="icon-"].pull-right.icon-2x,
 .btn [class*=" icon-"].pull-right.icon-2x {
   margin-top: .18em; }
 
+/* line 204, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn [class^="icon-"].icon-spin.icon-large,
 .btn [class*=" icon-"].icon-spin.icon-large {
   line-height: .8em; }
 
+/* line 210, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn.btn-small [class^="icon-"].pull-left.icon-2x,
 .btn.btn-small [class*=" icon-"].pull-left.icon-2x,
 .btn.btn-small [class^="icon-"].pull-right.icon-2x,
 .btn.btn-small [class*=" icon-"].pull-right.icon-2x {
   margin-top: .25em; }
 
+/* line 214, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn.btn-large [class^="icon-"],
 .btn.btn-large [class*=" icon-"] {
   margin-top: 0; }
 
+/* line 220, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn.btn-large [class^="icon-"].pull-left.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-left.icon-2x,
 .btn.btn-large [class^="icon-"].pull-right.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
   margin-top: .05em; }
 
+/* line 224, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn.btn-large [class^="icon-"].pull-left.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-left.icon-2x {
   margin-right: .2em; }
 
+/* line 228, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .btn.btn-large [class^="icon-"].pull-right.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
   margin-left: .2em; }
 
+/* line 231, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-spin {
   display: inline-block;
   -moz-animation: spin 2s infinite linear;
@@ -253,809 +287,1074 @@ ul.icons li [class*=" icon-"] {
   animation: spin 2s infinite linear; }
 
 @-moz-keyframes spin {
+  /* line 239, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   0% {
     -moz-transform: rotate(0deg); }
 
+  /* line 240, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   100% {
     -moz-transform: rotate(359deg); } }
 
 @-webkit-keyframes spin {
+  /* line 243, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   0% {
     -webkit-transform: rotate(0deg); }
 
+  /* line 244, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   100% {
     -webkit-transform: rotate(359deg); } }
 
 @-o-keyframes spin {
+  /* line 247, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   0% {
     -o-transform: rotate(0deg); }
 
+  /* line 248, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   100% {
     -o-transform: rotate(359deg); } }
 
 @-ms-keyframes spin {
+  /* line 251, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   0% {
     -ms-transform: rotate(0deg); }
 
+  /* line 252, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   100% {
     -ms-transform: rotate(359deg); } }
 
 @keyframes spin {
+  /* line 255, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   0% {
     transform: rotate(0deg); }
 
+  /* line 256, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   100% {
     transform: rotate(359deg); } }
 
 @-moz-document url-prefix() {
+  /* line 259, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   .icon-spin {
     height: .9em; }
 
+  /* line 262, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   .btn .icon-spin {
     height: auto; }
 
+  /* line 265, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   .icon-spin.icon-large {
     height: 1.25em; }
 
+  /* line 268, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
   .btn .icon-spin.icon-large {
     height: .75em; } }
 
 /*  Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
     readers do not read off random characters that represent icons */
+/* line 274, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-glass:before {
   content: "\f000"; }
 
+/* line 275, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-music:before {
   content: "\f001"; }
 
+/* line 276, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-search:before {
   content: "\f002"; }
 
+/* line 277, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-envelope:before {
   content: "\f003"; }
 
+/* line 278, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-heart:before {
   content: "\f004"; }
 
+/* line 279, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-star:before {
   content: "\f005"; }
 
+/* line 280, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-star-empty:before {
   content: "\f006"; }
 
+/* line 281, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-user:before {
   content: "\f007"; }
 
+/* line 282, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-film:before {
   content: "\f008"; }
 
+/* line 283, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-th-large:before {
   content: "\f009"; }
 
+/* line 284, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-th:before {
   content: "\f00a"; }
 
+/* line 285, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-th-list:before {
   content: "\f00b"; }
 
+/* line 286, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-ok:before {
   content: "\f00c"; }
 
+/* line 287, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-remove:before {
   content: "\f00d"; }
 
+/* line 288, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-zoom-in:before {
   content: "\f00e"; }
 
+/* line 290, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-zoom-out:before {
   content: "\f010"; }
 
+/* line 291, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-off:before {
   content: "\f011"; }
 
+/* line 292, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-signal:before {
   content: "\f012"; }
 
+/* line 293, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cog:before {
   content: "\f013"; }
 
+/* line 294, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-trash:before {
   content: "\f014"; }
 
+/* line 295, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-home:before {
   content: "\f015"; }
 
+/* line 296, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-file:before {
   content: "\f016"; }
 
+/* line 297, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-time:before {
   content: "\f017"; }
 
+/* line 298, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-road:before {
   content: "\f018"; }
 
+/* line 299, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-download-alt:before {
   content: "\f019"; }
 
+/* line 300, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-download:before {
   content: "\f01a"; }
 
+/* line 301, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-upload:before {
   content: "\f01b"; }
 
+/* line 302, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-inbox:before {
   content: "\f01c"; }
 
+/* line 303, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-play-circle:before {
   content: "\f01d"; }
 
+/* line 304, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-repeat:before {
   content: "\f01e"; }
 
 /* \f020 doesn't work in Safari. all shifted one down */
+/* line 307, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-refresh:before {
   content: "\f021"; }
 
+/* line 308, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-list-alt:before {
   content: "\f022"; }
 
+/* line 309, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-lock:before {
   content: "\f023"; }
 
+/* line 310, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-flag:before {
   content: "\f024"; }
 
+/* line 311, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-headphones:before {
   content: "\f025"; }
 
+/* line 312, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-volume-off:before {
   content: "\f026"; }
 
+/* line 313, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-volume-down:before {
   content: "\f027"; }
 
+/* line 314, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-volume-up:before {
   content: "\f028"; }
 
+/* line 315, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-qrcode:before {
   content: "\f029"; }
 
+/* line 316, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-barcode:before {
   content: "\f02a"; }
 
+/* line 317, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-tag:before {
   content: "\f02b"; }
 
+/* line 318, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-tags:before {
   content: "\f02c"; }
 
+/* line 319, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-book:before {
   content: "\f02d"; }
 
+/* line 320, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bookmark:before {
   content: "\f02e"; }
 
+/* line 321, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-print:before {
   content: "\f02f"; }
 
+/* line 323, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-camera:before {
   content: "\f030"; }
 
+/* line 324, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-font:before {
   content: "\f031"; }
 
+/* line 325, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bold:before {
   content: "\f032"; }
 
+/* line 326, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-italic:before {
   content: "\f033"; }
 
+/* line 327, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-text-height:before {
   content: "\f034"; }
 
+/* line 328, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-text-width:before {
   content: "\f035"; }
 
+/* line 329, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-align-left:before {
   content: "\f036"; }
 
+/* line 330, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-align-center:before {
   content: "\f037"; }
 
+/* line 331, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-align-right:before {
   content: "\f038"; }
 
+/* line 332, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-align-justify:before {
   content: "\f039"; }
 
+/* line 333, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-list:before {
   content: "\f03a"; }
 
+/* line 334, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-indent-left:before {
   content: "\f03b"; }
 
+/* line 335, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-indent-right:before {
   content: "\f03c"; }
 
+/* line 336, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-facetime-video:before {
   content: "\f03d"; }
 
+/* line 337, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-picture:before {
   content: "\f03e"; }
 
+/* line 339, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-pencil:before {
   content: "\f040"; }
 
+/* line 340, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-map-marker:before {
   content: "\f041"; }
 
+/* line 341, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-adjust:before {
   content: "\f042"; }
 
+/* line 342, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-tint:before {
   content: "\f043"; }
 
+/* line 343, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-edit:before {
   content: "\f044"; }
 
+/* line 344, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-share:before {
   content: "\f045"; }
 
+/* line 345, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-check:before {
   content: "\f046"; }
 
+/* line 346, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-move:before {
   content: "\f047"; }
 
+/* line 347, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-step-backward:before {
   content: "\f048"; }
 
+/* line 348, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-fast-backward:before {
   content: "\f049"; }
 
+/* line 349, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-backward:before {
   content: "\f04a"; }
 
+/* line 350, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-play:before {
   content: "\f04b"; }
 
+/* line 351, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-pause:before {
   content: "\f04c"; }
 
+/* line 352, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-stop:before {
   content: "\f04d"; }
 
+/* line 353, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-forward:before {
   content: "\f04e"; }
 
+/* line 355, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-fast-forward:before {
   content: "\f050"; }
 
+/* line 356, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-step-forward:before {
   content: "\f051"; }
 
+/* line 357, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-eject:before {
   content: "\f052"; }
 
+/* line 358, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-chevron-left:before {
   content: "\f053"; }
 
+/* line 359, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-chevron-right:before {
   content: "\f054"; }
 
+/* line 360, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-plus-sign:before {
   content: "\f055"; }
 
+/* line 361, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-minus-sign:before {
   content: "\f056"; }
 
+/* line 362, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-remove-sign:before {
   content: "\f057"; }
 
+/* line 363, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-ok-sign:before {
   content: "\f058"; }
 
+/* line 364, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-question-sign:before {
   content: "\f059"; }
 
+/* line 365, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-info-sign:before {
   content: "\f05a"; }
 
+/* line 366, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-screenshot:before {
   content: "\f05b"; }
 
+/* line 367, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-remove-circle:before {
   content: "\f05c"; }
 
+/* line 368, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-ok-circle:before {
   content: "\f05d"; }
 
+/* line 369, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-ban-circle:before {
   content: "\f05e"; }
 
+/* line 371, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-arrow-left:before {
   content: "\f060"; }
 
+/* line 372, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-arrow-right:before {
   content: "\f061"; }
 
+/* line 373, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-arrow-up:before {
   content: "\f062"; }
 
+/* line 374, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-arrow-down:before {
   content: "\f063"; }
 
+/* line 375, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-share-alt:before {
   content: "\f064"; }
 
+/* line 376, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-resize-full:before {
   content: "\f065"; }
 
+/* line 377, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-resize-small:before {
   content: "\f066"; }
 
+/* line 378, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-plus:before {
   content: "\f067"; }
 
+/* line 379, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-minus:before {
   content: "\f068"; }
 
+/* line 380, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-asterisk:before {
   content: "\f069"; }
 
+/* line 381, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-exclamation-sign:before {
   content: "\f06a"; }
 
+/* line 382, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-gift:before {
   content: "\f06b"; }
 
+/* line 383, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-leaf:before {
   content: "\f06c"; }
 
+/* line 384, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-fire:before {
   content: "\f06d"; }
 
+/* line 385, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-eye-open:before {
   content: "\f06e"; }
 
+/* line 387, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-eye-close:before {
   content: "\f070"; }
 
+/* line 388, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-warning-sign:before {
   content: "\f071"; }
 
+/* line 389, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-plane:before {
   content: "\f072"; }
 
+/* line 390, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-calendar:before {
   content: "\f073"; }
 
+/* line 391, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-random:before {
   content: "\f074"; }
 
+/* line 392, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-comment:before {
   content: "\f075"; }
 
+/* line 393, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-magnet:before {
   content: "\f076"; }
 
+/* line 394, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-chevron-up:before {
   content: "\f077"; }
 
+/* line 395, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-chevron-down:before {
   content: "\f078"; }
 
+/* line 396, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-retweet:before {
   content: "\f079"; }
 
+/* line 397, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-shopping-cart:before {
   content: "\f07a"; }
 
+/* line 398, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-folder-close:before {
   content: "\f07b"; }
 
+/* line 399, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-folder-open:before {
   content: "\f07c"; }
 
+/* line 400, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-resize-vertical:before {
   content: "\f07d"; }
 
+/* line 401, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-resize-horizontal:before {
   content: "\f07e"; }
 
+/* line 403, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bar-chart:before {
   content: "\f080"; }
 
+/* line 404, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-twitter-sign:before {
   content: "\f081"; }
 
+/* line 405, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-facebook-sign:before {
   content: "\f082"; }
 
+/* line 406, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-camera-retro:before {
   content: "\f083"; }
 
+/* line 407, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-key:before {
   content: "\f084"; }
 
+/* line 408, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cogs:before {
   content: "\f085"; }
 
+/* line 409, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-comments:before {
   content: "\f086"; }
 
+/* line 410, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-thumbs-up:before {
   content: "\f087"; }
 
+/* line 411, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-thumbs-down:before {
   content: "\f088"; }
 
+/* line 412, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-star-half:before {
   content: "\f089"; }
 
+/* line 413, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-heart-empty:before {
   content: "\f08a"; }
 
+/* line 414, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-signout:before {
   content: "\f08b"; }
 
+/* line 415, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-linkedin-sign:before {
   content: "\f08c"; }
 
+/* line 416, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-pushpin:before {
   content: "\f08d"; }
 
+/* line 417, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-external-link:before {
   content: "\f08e"; }
 
+/* line 419, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-signin:before {
   content: "\f090"; }
 
+/* line 420, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-trophy:before {
   content: "\f091"; }
 
+/* line 421, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-github-sign:before {
   content: "\f092"; }
 
+/* line 422, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-upload-alt:before {
   content: "\f093"; }
 
+/* line 423, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-lemon:before {
   content: "\f094"; }
 
+/* line 424, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-phone:before {
   content: "\f095"; }
 
+/* line 425, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-check-empty:before {
   content: "\f096"; }
 
+/* line 426, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bookmark-empty:before {
   content: "\f097"; }
 
+/* line 427, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-phone-sign:before {
   content: "\f098"; }
 
+/* line 428, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-twitter:before {
   content: "\f099"; }
 
+/* line 429, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-facebook:before {
   content: "\f09a"; }
 
+/* line 430, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-github:before {
   content: "\f09b"; }
 
+/* line 431, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-unlock:before {
   content: "\f09c"; }
 
+/* line 432, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-credit-card:before {
   content: "\f09d"; }
 
+/* line 433, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-rss:before {
   content: "\f09e"; }
 
+/* line 435, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hdd:before {
   content: "\f0a0"; }
 
+/* line 436, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bullhorn:before {
   content: "\f0a1"; }
 
+/* line 437, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bell:before {
   content: "\f0a2"; }
 
+/* line 438, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-certificate:before {
   content: "\f0a3"; }
 
+/* line 439, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hand-right:before {
   content: "\f0a4"; }
 
+/* line 440, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hand-left:before {
   content: "\f0a5"; }
 
+/* line 441, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hand-up:before {
   content: "\f0a6"; }
 
+/* line 442, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hand-down:before {
   content: "\f0a7"; }
 
+/* line 443, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle-arrow-left:before {
   content: "\f0a8"; }
 
+/* line 444, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle-arrow-right:before {
   content: "\f0a9"; }
 
+/* line 445, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle-arrow-up:before {
   content: "\f0aa"; }
 
+/* line 446, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle-arrow-down:before {
   content: "\f0ab"; }
 
+/* line 447, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-globe:before {
   content: "\f0ac"; }
 
+/* line 448, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-wrench:before {
   content: "\f0ad"; }
 
+/* line 449, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-tasks:before {
   content: "\f0ae"; }
 
+/* line 451, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-filter:before {
   content: "\f0b0"; }
 
+/* line 452, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-briefcase:before {
   content: "\f0b1"; }
 
+/* line 453, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-fullscreen:before {
   content: "\f0b2"; }
 
+/* line 455, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-group:before {
   content: "\f0c0"; }
 
+/* line 456, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-link:before {
   content: "\f0c1"; }
 
+/* line 457, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cloud:before {
   content: "\f0c2"; }
 
+/* line 458, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-beaker:before {
   content: "\f0c3"; }
 
+/* line 459, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cut:before {
   content: "\f0c4"; }
 
+/* line 460, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-copy:before {
   content: "\f0c5"; }
 
+/* line 461, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-paper-clip:before {
   content: "\f0c6"; }
 
+/* line 462, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-save:before {
   content: "\f0c7"; }
 
+/* line 463, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-sign-blank:before {
   content: "\f0c8"; }
 
+/* line 464, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-reorder:before {
   content: "\f0c9"; }
 
+/* line 465, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-list-ul:before {
   content: "\f0ca"; }
 
+/* line 466, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-list-ol:before {
   content: "\f0cb"; }
 
+/* line 467, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-strikethrough:before {
   content: "\f0cc"; }
 
+/* line 468, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-underline:before {
   content: "\f0cd"; }
 
+/* line 469, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-table:before {
   content: "\f0ce"; }
 
+/* line 471, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-magic:before {
   content: "\f0d0"; }
 
+/* line 472, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-truck:before {
   content: "\f0d1"; }
 
+/* line 473, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-pinterest:before {
   content: "\f0d2"; }
 
+/* line 474, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-pinterest-sign:before {
   content: "\f0d3"; }
 
+/* line 475, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-google-plus-sign:before {
   content: "\f0d4"; }
 
+/* line 476, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-google-plus:before {
   content: "\f0d5"; }
 
+/* line 477, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-money:before {
   content: "\f0d6"; }
 
+/* line 478, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-caret-down:before {
   content: "\f0d7"; }
 
+/* line 479, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-caret-up:before {
   content: "\f0d8"; }
 
+/* line 480, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-caret-left:before {
   content: "\f0d9"; }
 
+/* line 481, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-caret-right:before {
   content: "\f0da"; }
 
+/* line 482, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-columns:before {
   content: "\f0db"; }
 
+/* line 483, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-sort:before {
   content: "\f0dc"; }
 
+/* line 484, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-sort-down:before {
   content: "\f0dd"; }
 
+/* line 485, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-sort-up:before {
   content: "\f0de"; }
 
+/* line 487, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-envelope-alt:before {
   content: "\f0e0"; }
 
+/* line 488, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-linkedin:before {
   content: "\f0e1"; }
 
+/* line 489, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-undo:before {
   content: "\f0e2"; }
 
+/* line 490, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-legal:before {
   content: "\f0e3"; }
 
+/* line 491, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-dashboard:before {
   content: "\f0e4"; }
 
+/* line 492, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-comment-alt:before {
   content: "\f0e5"; }
 
+/* line 493, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-comments-alt:before {
   content: "\f0e6"; }
 
+/* line 494, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bolt:before {
   content: "\f0e7"; }
 
+/* line 495, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-sitemap:before {
   content: "\f0e8"; }
 
+/* line 496, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-umbrella:before {
   content: "\f0e9"; }
 
+/* line 497, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-paste:before {
   content: "\f0ea"; }
 
+/* line 498, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-lightbulb:before {
   content: "\f0eb"; }
 
+/* line 499, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-exchange:before {
   content: "\f0ec"; }
 
+/* line 500, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cloud-download:before {
   content: "\f0ed"; }
 
+/* line 501, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-cloud-upload:before {
   content: "\f0ee"; }
 
+/* line 503, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-user-md:before {
   content: "\f0f0"; }
 
+/* line 504, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-stethoscope:before {
   content: "\f0f1"; }
 
+/* line 505, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-suitcase:before {
   content: "\f0f2"; }
 
+/* line 506, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-bell-alt:before {
   content: "\f0f3"; }
 
+/* line 507, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-coffee:before {
   content: "\f0f4"; }
 
+/* line 508, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-food:before {
   content: "\f0f5"; }
 
+/* line 509, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-file-alt:before {
   content: "\f0f6"; }
 
+/* line 510, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-building:before {
   content: "\f0f7"; }
 
+/* line 511, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-hospital:before {
   content: "\f0f8"; }
 
+/* line 512, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-ambulance:before {
   content: "\f0f9"; }
 
+/* line 513, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-medkit:before {
   content: "\f0fa"; }
 
+/* line 514, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-fighter-jet:before {
   content: "\f0fb"; }
 
+/* line 515, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-beer:before {
   content: "\f0fc"; }
 
+/* line 516, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-h-sign:before {
   content: "\f0fd"; }
 
+/* line 517, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-plus-sign-alt:before {
   content: "\f0fe"; }
 
+/* line 519, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-double-angle-left:before {
   content: "\f100"; }
 
+/* line 520, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-double-angle-right:before {
   content: "\f101"; }
 
+/* line 521, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-double-angle-up:before {
   content: "\f102"; }
 
+/* line 522, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-double-angle-down:before {
   content: "\f103"; }
 
+/* line 523, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-angle-left:before {
   content: "\f104"; }
 
+/* line 524, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-angle-right:before {
   content: "\f105"; }
 
+/* line 525, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-angle-up:before {
   content: "\f106"; }
 
+/* line 526, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-angle-down:before {
   content: "\f107"; }
 
+/* line 527, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-desktop:before {
   content: "\f108"; }
 
+/* line 528, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-laptop:before {
   content: "\f109"; }
 
+/* line 529, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-tablet:before {
   content: "\f10a"; }
 
+/* line 530, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-mobile-phone:before {
   content: "\f10b"; }
 
+/* line 531, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle-blank:before {
   content: "\f10c"; }
 
+/* line 532, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-quote-left:before {
   content: "\f10d"; }
 
+/* line 533, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-quote-right:before {
   content: "\f10e"; }
 
+/* line 535, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-spinner:before {
   content: "\f110"; }
 
+/* line 536, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-circle:before {
   content: "\f111"; }
 
+/* line 537, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-reply:before {
   content: "\f112"; }
 
+/* line 538, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-github-alt:before {
   content: "\f113"; }
 
+/* line 539, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-folder-close-alt:before {
   content: "\f114"; }
 
+/* line 540, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_font-awesome.scss */
 .icon-folder-open-alt:before {
   content: "\f115"; }
 
+/* line 6, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 body {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem;
   background-color: #14080a;
   height: 100%; }
 
+/* line 13, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #wrapper {
   height: 100%;
   background-color: #14080a;
@@ -1067,26 +1366,32 @@ body {
   background-image: -olinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent);
   background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); }
 
+/* line 19, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #mainContainer {
   margin: auto;
   height: 100%; }
 
+/* line 24, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 h1 {
   display: block;
   color: #14080a; }
 
+/* line 29, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 h2 {
   font-family: "Kaushan Script", cursive; }
 
+/* line 33, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 h3 {
   font-family: "aliquamregular", sans-serif;
   color: #14080a;
   letter-spacing: 0rem; }
 
+/* line 39, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 a {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem; }
 
+/* line 44, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 p {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem;
@@ -1094,28 +1399,36 @@ p {
   line-height: 1.5rem;
   color: #999999; }
 
+/* line 52, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 li {
   font-family: "aliquamregular", sans-serif;
   letter-spacing: 0.1rem; }
 
+/* line 57, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .fontAwesome {
   font-family: 'FontAwesome'; }
 
+/* line 63, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 header {
   width: 100%;
   height: 100%;
   text-align: center;
   background-color: #f7931e; }
 
+/* line 70, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #logo {
   font-size: 0rem; }
 
+/* line 76, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #navBar {
   background: #14080a; }
+  /* line 79, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar #menu {
     background: #14080a; }
+  /* line 83, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li {
     display: inline-block; }
+    /* line 86, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
     #navBar li a {
       color: white;
       background-color: #14080a;
@@ -1128,26 +1441,37 @@ header {
       /* Safari and Chrome */
       -o-transition: all 0.6s linear;
       /* Opera */ }
+  /* line 99, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.home a {
     border: 20px solid #a8e232; }
+  /* line 103, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.home a:hover {
     background-color: #a8e232; }
+  /* line 109, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.about a {
     border: 20px solid #ec31b1; }
+  /* line 113, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.about a:hover {
     background-color: #ec31b1; }
+  /* line 119, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.classes a {
     border: 20px solid #1fe0fc; }
+  /* line 123, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.classes a:hover {
     background-color: #1fe0fc; }
+  /* line 129, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.gallery a {
     border: 20px solid #f7931e; }
+  /* line 133, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.gallery a:hover {
     background-color: #f7931e; }
+  /* line 139, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.contact a {
     border: 20px solid #9f4ac8; }
+  /* line 143, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li.contact a:hover {
     background-color: #9f4ac8; }
+  /* line 150, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #navBar li a:hover,
   #navBar li a:focus,
   #navBar li a:active {
@@ -1156,12 +1480,15 @@ header {
     outline: 5px solid #14080a;
     outline-offset: -19px; }
 
+/* line 162, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #danceTypes p {
   color: white; }
 
+/* line 167, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zumbaIs {
   color: #a8e232; }
 
+/* line 174, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #promo {
   display: block;
   margin: auto;
@@ -1179,6 +1506,7 @@ header {
   box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
   outline: 3px solid #14080a;
   outline-offset: -20px; }
+  /* line 188, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #promo p {
     color: white;
     display: block;
@@ -1186,10 +1514,12 @@ header {
     margin-right: 5%;
     letter-spacing: 0.2rem; }
 
+/* line 199, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #viewClasses {
   width: 100%;
   height: 100%; }
 
+/* line 206, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .viewClassText a {
   display: block;
   max-width: 90%;
@@ -1211,10 +1541,12 @@ header {
   box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
   outline: 2px solid #a8e232;
   outline-offset: -25px; }
+/* line 224, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .viewClassText a:hover {
   color: #a8e232;
   background-color: #14080a; }
 
+/* line 232, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #toggleButton {
   display: block;
   font-family: "aliquamregular", sans-serif;
@@ -1233,12 +1565,14 @@ header {
   -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
   box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
+/* line 248, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #form {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   background-color: rgba(153, 153, 153, 0.1); }
 
+/* line 255, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 input[type="email"],
 input[type="text"],
 textarea {
@@ -1248,10 +1582,12 @@ textarea {
   -moz-border-radius: 10px;
   border-radius: 10px; }
 
+/* line 262, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .required {
   font-size: 0.8rem;
   color: #9f4ac8; }
 
+/* line 267, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 input[type="submit"] {
   display: block;
   font-family: "aliquamregular", sans-serif;
@@ -1269,38 +1605,48 @@ input[type="submit"] {
   -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8);
   box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
+/* line 283, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 footer {
   width: 100%;
   height: 100%;
   text-align: center;
   background-color: #14080a; }
 
+/* line 290, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zinNetwork {
   background-image: url("../assets/images/full/zin.png");
   background-repeat: no-repeat; }
 
+/* line 295, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zinDate {
   color: #999999; }
 
+/* line 299, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .zumbatomic {
   background-image: url("../assets/images/full/zumbatomic.png");
   background-repeat: no-repeat; }
 
+/* line 307, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .social li a {
   color: #f7931e; }
+/* line 311, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .social li a:hover {
   color: white; }
 
+/* line 317, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #copyright {
   background-color: #f7931e; }
+  /* line 320, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
   #copyright p {
     color: #14080a; }
 
+/* line 329, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 #slideshow {
   position: relative;
   margin: auto;
   background-color: green; }
 
+/* line 335, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .rslides {
   position: relative;
   list-style: none;
@@ -1309,6 +1655,7 @@ footer {
   padding: 0;
   margin: 0 auto; }
 
+/* line 345, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .rslides li {
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -1317,11 +1664,13 @@ footer {
   left: 0;
   top: 0; }
 
+/* line 354, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left; }
 
+/* line 360, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .rslides img {
   display: block;
   height: auto;
@@ -1329,6 +1678,7 @@ footer {
   width: 100%;
   border: 0; }
 
+/* line 372, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav {
   z-index: 3;
   position: absolute;
@@ -1344,14 +1694,17 @@ footer {
   background: transparent url("../assets/images/themes.gif") no-repeat left top;
   margin-top: -45px; }
 
+/* line 388, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav:active {
   opacity: 1.0; }
 
+/* line 392, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav.next {
   left: auto;
   background-position: right top;
   right: 10%; }
 
+/* line 398, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .transparent-btns_nav {
   z-index: 3;
   position: absolute;
@@ -1368,21 +1721,25 @@ footer {
   overflow: hidden;
   height: 91%; }
 
+/* line 414, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .transparent-btns_nav.next {
   left: auto;
   right: 0; }
 
+/* line 445, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_nav:focus,
 .transparent-btns_nav:focus,
 .large-btns_nav:focus {
   outline: none; }
 
+/* line 451, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs,
 .transparent-btns_tabs,
 .large-btns_tabs {
   margin-top: 10px;
   text-align: center; }
 
+/* line 458, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs li,
 .transparent-btns_tabs li,
 .large-btns_tabs li {
@@ -1392,6 +1749,7 @@ footer {
   *float: left;
   margin-right: 5px; }
 
+/* line 468, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_tabs a,
 .transparent-btns_tabs a,
 .large-btns_tabs a {
@@ -1411,6 +1769,7 @@ footer {
   width: 9px;
   height: 9px; }
 
+/* line 488, /Users/EileenFerrer/Eileen's/Web Projects/Zumba/ZumbaFiles/SASSstylesheets/_baseStyles.scss */
 .centered-btns_here a,
 .transparent-btns_here a,
 .large-btns_here a {

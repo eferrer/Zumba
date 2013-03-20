@@ -12,7 +12,7 @@
     }
     
     #logo{
-        background-image: url("../assets/images/full/zumbaLogo80.png");
+        background-image: url("../images/full/zumbaLogo80.png");
         background-repeat: no-repeat;
         width: 800px;
         max-width: 100%;
@@ -24,7 +24,7 @@
      
     #mainImage{
         
-        background-image: url("../assets/images/full/zumbaHome1281.jpg");
+        background-image: url("../images/full/zumbaHome1281.jpg");
         background-repeat: no-repeat;
         width: 800px;
         max-width: 90%;
@@ -92,11 +92,12 @@
     //*******************HOME PAGE CONTENT***************
     
     #mainContainer{
-      //background-image: url("../assets/images/whiteWall.png");
+      //background-image: url("../images/assets/whiteWall.png");
       //background-color: red;
       max-width: 100%;
       height: 100%;
       margin-top: 3rem;
+      background-color: #f7f7f7;
       @include roundedCorners;
       border: $borderContainer;
     }
@@ -165,7 +166,7 @@
     
     .zumbaCom a{
         clear: both;
-        background-image: url("../assets/images/full/zumba.png");
+        background-image: url("../images/full/zumba.png");
         background-repeat: no-repeat;
         width: 265px;
         max-width: 100%;
