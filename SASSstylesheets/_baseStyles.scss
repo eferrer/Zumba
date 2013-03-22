@@ -1,7 +1,7 @@
 /* ===== == = === Base Styles === = == ===== */
 
 @import "_styles.scss";
-@import "_font-awesome.scss";
+//@import "_font-awesome.scss";
 
 body{
   font-family: 'Arimo', sans-serif;
@@ -22,7 +22,7 @@ body{
 }
    
 h1{
-  font-family: 'Wendy One', sans-serif;
+  font-family: $wendy;
   font-size: 3rem;
   display: block;
   color: $brown;
@@ -33,7 +33,7 @@ h2{
 }
 
 h3{
-  font-family: 'Wendy One', sans-serif;
+  font-family: $wendy;
   //font-family: 'Arimo', sans-serif;
   font-size: 1.5rem;
   color: $brown;
@@ -57,9 +57,9 @@ li{
   //letter-spacing: 0.1rem;
 }
 
-.fontAwesome{
-  font-family: 'FontAwesome';
-}
+//.fontAwesome{
+  //font-family: 'FontAwesome';
+//}
 
 //*******************HEADER***************
 
@@ -324,6 +324,11 @@ footer{
   }
 }
 
+.connect{
+  background-image: url("../images/full/facebook.png");
+  background-repeat: no-repeat;
+  
+}
 #copyright{
   background-color: $orange;
   
