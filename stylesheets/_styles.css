@@ -8,14 +8,7 @@
 
 @font-face {
   font-family: 'aliquamregular';
-  src: url("../assets/fonts/aliquamreg-webfont.eot");
-  src: url("../assets/fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/aliquamreg-webfont.woff") format("woff"), url("../assets/fonts/aliquamreg-webfont.ttf") format("truetype"), url("../assets/fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'journalregular';
-  src: url("../assets/fonts/journal-webfont.eot");
-  src: url("../assets/fonts/journal-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/journal-webfont.woff") format("woff"), url("../assets/fonts/journal-webfont.ttf") format("truetype"), url("../assets/fonts/journal-webfont.svg#journalregular") format("svg");
+  src: url("../fonts/aliquamreg-webfont.eot");
+  src: url("../fonts/aliquamreg-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/aliquamreg-webfont.woff") format("woff"), url("../fonts/aliquamreg-webfont.ttf") format("truetype"), url("../fonts/aliquamreg-webfont.svg#../assets/fonts/aliquamregular") format("svg");
   font-weight: normal;
   font-style: normal; }
