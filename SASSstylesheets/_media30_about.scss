@@ -28,25 +28,25 @@
     //*******************TESTIMONIALS********************
 
     #testimonials{
-      width: 90%;
-      margin: auto;
+            width: 90%;
+            margin: auto;
 
-      ul{
-        margin-top: 2rem;
-      }
+            ul{
+              margin-top: 2rem;
+            }
 
-      li{
-        margin-bottom: 1rem;
-        color: $text;
+            li{
+              margin-bottom: 1rem;
+              color: $text;
+            }
+
+          h3{
+                  display: inline;
+                margin-top: 2rem;
+                padding-bottom: 0.8rem;
+                border-bottom: $h3TestimonialsBorder;
+          }
       }
-    }
-    
-    h4{
-      display: inline;
-      font-size: 1.2rem;
-      padding-bottom: 0.5rem;
-      border-bottom: $h1About;
-    }
 
     //*******************TAG LINE*************************
 

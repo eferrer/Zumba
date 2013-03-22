@@ -4,8 +4,8 @@
 @import "_font-awesome.scss";
 
 body{
-  font-family: $aliquamRegular;
-  letter-spacing: 0.1rem;
+  font-family: 'Arimo', sans-serif;
+  //letter-spacing: 0.1rem;
   background-color: $brown;
   height: 100%;
 }
@@ -22,6 +22,8 @@ body{
 }
    
 h1{
+  font-family: 'Wendy One', sans-serif;
+  font-size: 3rem;
   display: block;
   color: $brown;
 }
@@ -31,32 +33,32 @@ h2{
 }
 
 h3{
-  font-family: $aliquamRegular;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.5rem;
   color: $brown;
-  letter-spacing: 0rem;
 }
 
 h4{
-  font-family: $aliquamRegular;
+  font-family: 'Arimo', sans-serif;
   color: $brown;
 }
 
 a{
-  font-family: $aliquamRegular;
-  letter-spacing: 0.1rem
+  font-family: 'Arimo', sans-serif;
+  //etter-spacing: 0.1rem
 }
 
 p {
-  font-family: $aliquamRegular;
-  letter-spacing: 0.1rem;
-  font-size: 1rem;
+  font-family: 'Arimo', sans-serif;
+  //letter-spacing: 0.1rem;
+  font-size:  1.2rem;
   line-height: 1.5rem;
   color: $text;
 }
 
 li{
-  font-family: $aliquamRegular;
-  letter-spacing: 0.1rem;
+  font-family: 'Arimo', sans-serif;
+  //letter-spacing: 0.1rem;
 }
 
 .fontAwesome{
@@ -202,7 +204,7 @@ background: $brown;
     display: block;
     margin-left: 5%;
     margin-right: 5%;
-    letter-spacing: 0.2rem;
+    //letter-spacing: 0.2rem;
   }
 }
 
@@ -243,10 +245,10 @@ background: $brown;
 
 #toggleButton{
   display: block;
-  font-family: $aliquamRegular;
+  font-family: 'Arimo', sans-serif;
   font-size: 1.2rem;
   color: $white;
-  letter-spacing: 0.1rem;
+  //letter-spacing: 0.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: $blue;
@@ -272,16 +274,16 @@ textarea{
     
 .required
     {
-        font-size: $fontSize * 0.8;
+        font-size: 0.8rem;
         color: $purple;
     }
     
 input[type="submit"]{
   display: block;
-  font-family: $aliquamRegular;
-  font-size: 1.2rem;
+  font-family: 'Arimo', sans-serif;
+  font-size: 1.4rem;
   color: $white;
-  letter-spacing: 0.1rem;
+  //letter-spacing: 0.1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: $text;

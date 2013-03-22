@@ -721,25 +721,25 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
 
 .icon-folder-open-alt:before { content: "\f115"; }
 
-body { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; background-color: #14080a; height: 100%; }
+body { font-family: "Arimo", sans-serif; background-color: #14080a; height: 100%; }
 
 #wrapper { height: 100%; background-color: #14080a; background-size: 10px 10px; background-color: rgba(20, 8, 10, 0.9); background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -mslinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: -olinear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%, transparent); }
 
 #mainContainer { margin: auto; height: 100%; }
 
-h1 { display: block; color: #14080a; }
+h1 { font-family: "Wendy One", sans-serif; font-size: 3rem; display: block; color: #14080a; }
 
 h2 { font-family: "Kaushan Script", cursive; }
 
-h3 { font-family: "aliquamregular", sans-serif; color: #14080a; letter-spacing: 0rem; }
+h3 { font-family: "Arimo", sans-serif; font-size: 1.5rem; color: #14080a; }
 
-h4 { font-family: "aliquamregular", sans-serif; color: #14080a; }
+h4 { font-family: "Arimo", sans-serif; color: #14080a; }
 
-a { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; }
+a { font-family: "Arimo", sans-serif; }
 
-p { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; font-size: 1rem; line-height: 1.5rem; color: #999999; }
+p { font-family: "Arimo", sans-serif; font-size: 1.2rem; line-height: 1.5rem; color: #191919; }
 
-li { font-family: "aliquamregular", sans-serif; letter-spacing: 0.1rem; }
+li { font-family: "Arimo", sans-serif; }
 
 .fontAwesome { font-family: 'FontAwesome'; }
 
@@ -770,14 +770,14 @@ header { width: 100%; height: 100%; text-align: center; background-color: #f7931
 .reference { font-style: italic; color: #ec31b1; }
 
 #promo { display: block; margin: auto; height: 100%; background-color: #14080a; text-align: center; padding-top: 0.6rem; padding-bottom: 0.6rem; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); outline: 3px solid #14080a; outline-offset: -20px; }
-#promo p { color: white; display: block; margin-left: 5%; margin-right: 5%; letter-spacing: 0.2rem; }
+#promo p { color: white; display: block; margin-left: 5%; margin-right: 5%; }
 
 #viewClasses { width: 100%; height: 100%; }
 
 .viewClassText a { display: block; max-width: 90%; height: 100%; padding: 8px 0; font-family: "Kaushan Script", cursive; font-size: 1.9rem; font-weight: bolder; text-align: center; color: #14080a; background-color: #a8e232; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 30px solid #14080a; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); outline: 2px solid #a8e232; outline-offset: -25px; }
 .viewClassText a:hover { color: #a8e232; background-color: #14080a; }
 
-#toggleButton { display: block; font-family: "aliquamregular", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #1fe0fc; border: 1px solid #1fe0fc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
+#toggleButton { display: block; font-family: "Arimo", sans-serif; font-size: 1.2rem; color: white; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #1fe0fc; border: 1px solid #1fe0fc; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
 #form { -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; background-color: rgba(153, 153, 153, 0.1); }
 
@@ -785,13 +785,13 @@ input[type="email"], input[type="text"], textarea { background-color: white; bor
 
 .required { font-size: 0.8rem; color: #9f4ac8; }
 
-input[type="submit"] { display: block; font-family: "aliquamregular", sans-serif; font-size: 1.2rem; color: white; letter-spacing: 0.1rem; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #999999; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
+input[type="submit"] { display: block; font-family: "Arimo", sans-serif; font-size: 1.4rem; color: white; padding-top: 0.5rem; padding-bottom: 0.5rem; background-color: #191919; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -moz-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); -o-box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); box-shadow: 1px 7px 10px rgba(20, 8, 10, 0.8); }
 
 footer { width: 100%; height: 100%; text-align: center; background-color: #14080a; }
 
 .zinNetwork { background-image: url("../images/full/zin.png"); background-repeat: no-repeat; }
 
-.zinDate { color: #999999; }
+.zinDate { color: #191919; }
 
 .zumbatomic { background-image: url("../images/full/zumbatomic.png"); background-repeat: no-repeat; }
 
@@ -1480,8 +1480,8 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .info { width: 100%; margin: auto; margin-bottom: 2rem; }
   #testimonials { width: 90%; margin: auto; }
   #testimonials ul { margin-top: 2rem; }
-  #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials li { margin-bottom: 1rem; color: #191919; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { width: 90%; margin: auto; text-align: center; padding-top: 2rem; padding-bottom: 1rem; color: #ec31b1; font-size: 1.5rem; }
   #promo { margin-top: 2rem; margin-bottom: 3rem; }
   .promoAbout { width: 65%; margin: auto; border: 25px solid #ec31b1; }
@@ -1496,7 +1496,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .promoClasses p { font-size: 2rem; line-height: 2rem; }
   .prmsgClasses { color: #1fe0fc; }
   .classDetails { width: 100%; margin: auto; margin-bottom: 2rem; padding-bottom: 0rem; height: 100%; }
-  #classTimes li { line-height: 1.5rem; color: #999999; }
+  #classTimes li { line-height: 1.5rem; color: #191919; }
   .day { width: 50%; font-size: 1.1rem; }
   .time { width: 40%; font-size: 1.1rem; }
   .place { clear: both; text-transform: uppercase; padding-top: 1rem; }
@@ -1509,7 +1509,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #studentInfo h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #1fe0fc; }
   .studentInfo { width: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; }
   .needs { width: 100%; margin: auto; margin-top: 2rem; }
-  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #999999; }
+  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #191919; }
   /* ===== == = === 30em (480 px) portrait  smartphone === = == ===== */
   #videoContainer { width: 90%; height: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; background: white; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
   #video { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
@@ -1562,8 +1562,8 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .info { width: 100%; margin-bottom: 2rem; }
   #testimonials { width: 90%; margin: auto; }
   #testimonials ul { margin-top: 2rem; }
-  #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials li { margin-bottom: 1rem; color: #191919; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { width: 90%; margin: auto; text-align: center; padding-top: 2rem; padding-bottom: 1rem; color: #ec31b1; font-size: 1.5rem; }
   #promo { margin-top: 2rem; margin-bottom: 3rem; }
   .promoAbout { width: 65%; margin: auto; margin-top: 2rem; margin-bottom: 3rem; border: 25px solid #ec31b1; }
@@ -1578,7 +1578,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .promoClasses p { font-size: 2rem; line-height: 2rem; }
   .prmsgClasses { color: #1fe0fc; }
   .classDetails { width: 100%; margin: auto; margin-bottom: 2rem; padding-bottom: 0rem; height: 100%; }
-  #classTimes li { line-height: 1.5rem; color: #999999; }
+  #classTimes li { line-height: 1.5rem; color: #191919; }
   .day { width: 50%; font-size: 1.1rem; }
   .time { width: 40%; font-size: 1.1rem; }
   .place { clear: both; text-transform: uppercase; padding-top: 1rem; }
@@ -1591,7 +1591,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #studentInfo h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #1fe0fc; }
   .studentInfo { width: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; }
   .needs { width: 100%; margin: auto; margin-top: 2rem; }
-  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #999999; }
+  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #191919; }
   /* Target landscape smartphones, portrait tablets, narrow desktops /* ===== == = === 481 px - 800 px === = == ===== */
   #videoContainer { width: 90%; height: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; background: white; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
   #video { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
@@ -1667,8 +1667,8 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .selfPhoto { clear: both; background-image: url("../images/full/self80.jpg"); background-repeat: no-repeat; width: 200px; max-width: 100%; height: 300px; margin: auto; margin-top: -1rem; display: block; }
   #testimonials { clear: both; width: 90%; margin: auto; }
   #testimonials ul { width: 100%; margin-top: 3rem; }
-  #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials li { margin-bottom: 1rem; color: #191919; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #ec31b1; font-size: 2rem; }
   #promo { margin-top: 3rem; margin-bottom: 4rem; }
   .promoAbout { width: 55%; margin: auto; border: 25px solid #ec31b1; }
@@ -1683,7 +1683,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .promoClasses p { font-size: 2rem; line-height: 2rem; }
   .prmsgClasses { color: #1fe0fc; }
   .classDetails { width: 100%; height: 100%; margin: auto; margin-bottom: 5rem; overflow: hidden; }
-  #classTimes li { line-height: 1.5rem; color: #999999; }
+  #classTimes li { line-height: 1.5rem; color: #191919; }
   .day { float: left; width: 25%; font-size: 1.1rem; }
   .time { float: left; width: 25%; font-size: 1.1rem; }
   .place { float: right; width: 45%; text-transform: uppercase; }
@@ -1697,7 +1697,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #studentInfo h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #1fe0fc; }
   .studentInfo { width: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; }
   .needs { width: 100%; margin: auto; margin-top: 2rem; }
-  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #999999; }
+  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #191919; }
   /* 801 - 1280 */
   #videoContainer { width: 90%; height: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; background: white; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
   #video { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
@@ -1725,29 +1725,29 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #navBar { width: 100%; height: 100%; padding-top: 2rem; margin-top: 0.3rem; margin-bottom: 0.3rem; }
   #navBar #menu { width: 80em; margin: auto; }
   #navBar li { width: 18%; margin-right: 2%; }
-  #navBar li a { display: block; font-size: 1.2rem; height: 3rem; line-height: 3rem; margin-bottom: 2rem; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
+  #navBar li a { display: block; font-size: 1.4rem; height: 3rem; line-height: 3rem; margin-bottom: 2rem; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
   #navBar li:last-child { margin-right: 0%; }
   #danceTypes { max-width: 80em; margin: auto; margin-top: 3rem; }
-  #danceTypes p { font-size: 2.8rem; line-height: 3rem; }
+  #danceTypes p { font-size: 3rem; line-height: 3rem; }
   #mainContainer { background-repeat: repeat; max-width: 80%; height: 100%; margin-top: 3rem; background-color: #f7f7f7; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; border: 60px solid white; }
   .homeHeading { display: block; width: 90%; margin-top: 6rem; margin-left: 5%; padding-top: 1rem; padding-bottom: 1rem; border-bottom: 5px solid #a8e232; }
   #content { float: left; width: 55%; margin-left: 5%; margin-bottom: 1rem; }
   .info { width: 100%; margin: auto; margin-bottom: 2rem; }
   #rightContent { display: block; float: right; width: 30%; margin-top: 2rem; margin-left: 3%; margin-right: 5%; }
-  .viewClassText a { font-size: 2rem; }
+  .viewClassText a { font-size: 2.2rem; }
   #zumbaContainer { width: 100%; height: 100%; margin: auto; margin-top: 3rem; }
-  .zumbaCom a { clear: both; background-image: url("../images/full/zumba.png"); background-repeat: no-repeat; width: 265px; max-width: 100%; height: 284px; display: block; margin-top: 3rem; margin: auto; font-size: 0rem; }
-  #homeTag { clear: both; margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #a8e232; font-size: 2rem; }
+  .zumbaCom a { clear: both; background-image: url("../images/full/zumba.png"); background-repeat: no-repeat; width: 265px; max-width: 100%; height: 284px; display: block; margin-top: 3rem; margin: auto; }
+  #homeTag { clear: both; margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #a8e232; font-size: 2.2rem; }
   footer { margin-top: -1rem; padding-top: 1rem; }
   .zin { float: left; width: 20%; margin-left: 30%; }
   .atomic { float: right; width: 20%; margin-right: 30%; }
   .zinNetwork { display: block; width: 150px; max-width: 100%; height: 53px; margin: auto; }
-  .zinDate { font-size: 0.8rem; }
+  .zinDate { font-size: 1rem; }
   .zumbatomic { display: block; width: 192px; max-width: 100%; height: 47px; margin: auto; margin-top: 1rem; }
   .social { clear: both; width: 80%; margin: auto; margin-top: 2rem; border-top: 2px solid #f7931e; }
   .social li { display: inline-block; width: 20%; height: 2rem; margin-top: 1rem; margin-bottom: 2rem; }
-  .social a { font-size: 2rem; }
-  .text { font-size: 1rem; }
+  .social a { font-size: 2.2rem; }
+  .text { font-size: 1.2rem; }
   #copyright { height: 4rem; margin-top: -1rem; }
   #copyright p { font-size: 0.8rem; padding-top: 1rem; }
   #slideshow { max-width: 50%; margin-top: 2rem; margin-right: 3rem; }
@@ -1772,8 +1772,8 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .selfPhoto { clear: both; background-image: url("../images/full/self1281.jpg"); background-repeat: no-repeat; width: 300px; max-width: 100%; height: 450px; margin: auto; margin-top: -1rem; display: block; }
   #testimonials { margin-top: 2rem; clear: both; width: 90%; margin: auto; }
   #testimonials ul { width: 100%; margin-top: 3rem; }
-  #testimonials li { margin-bottom: 1rem; color: #999999; }
-  h4 { display: inline; font-size: 1.2rem; padding-bottom: 0.5rem; border-bottom: 5px solid #ec31b1; }
+  #testimonials li { margin-bottom: 1rem; color: #191919; }
+  #testimonials h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #ec31b1; }
   #aboutTag { clear: both; margin: auto; width: 95%; text-align: center; padding-top: 3.5rem; padding-bottom: 2rem; color: #ec31b1; font-size: 2rem; }
   #promo { margin-top: 3rem; margin-bottom: 4rem; }
   .promoAbout { width: 55%; margin: auto; margin-top: 3rem; margin-bottom: 4rem; border: 25px solid #ec31b1; }
@@ -1788,7 +1788,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   .promoClasses p { font-size: 2rem; line-height: 2rem; }
   .prmsgClasses { color: #1fe0fc; }
   .classDetails { width: 100%; height: 100%; margin: auto; margin-bottom: 5rem; overflow: hidden; }
-  #classTimes li { line-height: 1.5rem; color: #999999; }
+  #classTimes li { line-height: 1.5rem; color: #191919; }
   .day { float: left; width: 25%; font-size: 1.1rem; }
   .time { float: left; width: 25%; font-size: 1.1rem; }
   .place { float: right; width: 45%; text-transform: uppercase; }
@@ -1802,7 +1802,7 @@ ul.icons li [class^="icon-"], ul.icons li [class*=" icon-"] { width: .75em; }
   #studentInfo h3 { display: inline; margin-top: 2rem; padding-bottom: 0.8rem; border-bottom: 1px solid #1fe0fc; }
   .studentInfo { width: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; }
   .needs { width: 100%; margin: auto; margin-top: 2rem; }
-  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #999999; }
+  .needs li { line-height: 1.5rem; list-style-type: disc; list-style-position: inside; color: #191919; }
   /* ===== == = === 801 px - 1280 px === = == ===== */
   #videoContainer { width: 90%; height: 100%; margin: auto; margin-top: 2rem; margin-bottom: 2rem; background: white; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
   #video { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
